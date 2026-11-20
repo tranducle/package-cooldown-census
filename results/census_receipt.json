@@ -1,0 +1,30 @@
+{
+  "mode": "official",
+  "generated_utc": "2026-11-19T20:10:19Z",
+  "files": {
+    "results/census_summary.json": {
+      "sha256": "4cfc7f2507e176af68a4f9ccb568cf6fc05a4cc5e3f825a6aec1ced476a0478b",
+      "bytes": 96080
+    },
+    "results/census_gate_curves.csv": {
+      "sha256": "18acecddef5053161135a1f155f410c613951b08be9088111367359729f3874d",
+      "bytes": 4237
+    },
+    "results/census_shapley_k7.csv": {
+      "sha256": "7cda3f2a91cb5e360bc7d9bd9c5bf9cc6d3d6a5b327c16d923520265e48be551",
+      "bytes": 411
+    },
+    "results/manual_audit_sample_100.csv": {
+      "sha256": "01244f57993fd1d7fac158fb7e6b37bbfb8ba0824e763fa2bba23f5a5c1c4ae2",
+      "bytes": 15694
+    },
+    "results/census_openness_k7.csv": {
+      "sha256": "4c5280b4c4d0ea13b6d8c3ce32a8496f5608b2ca3d409f9e98bf05f591530672",
+      "bytes": 766
+    },
+    "results/census_sensitivity_k7.csv": {
+      "sha256": "53fa039d4b24cbe61bbec151a2f6c05f31e294ebcf10222cebe30fecc3fcd6c3",
+      "bytes": 742
+    }
+  }
+}

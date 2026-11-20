@@ -1,0 +1,3365 @@
+{
+  "mode": "official",
+  "generated_utc": "2026-11-19T20:10:19Z",
+  "n_boot": 5000,
+  "seed": 20261119,
+  "ecosystems": {
+    "npm": {
+      "audit": {
+        "ecosystem": "npm",
+        "pkg_parts": 2229,
+        "ver_parts": 1352,
+        "dep_parts": 1981,
+        "packages_total": 5325740,
+        "ghsa_fixed_raw": 6770,
+        "mal_records_raw": 209969,
+        "versions_total": 63913855,
+        "versions_null_ts": 5865,
+        "eligible_linked_advisories": 2777,
+        "link_drops": {
+          "fix_outside_2018_2026": 263,
+          "fixed_ver_not_found": 3482,
+          "empty_vuln_set": 34,
+          "pkg_not_in_eco": 214
+        },
+        "selected_advisories": 2777,
+        "selected_unique_upstreams": 1536,
+        "dependencies_total_rows": 443458017,
+        "matched_raw_dep_edges": 58028095,
+        "live_relations_total": 58020369,
+        "live_relations_dropped_bad_ts": 7726,
+        "advisories_with_live_rels": 2720,
+        "evaluated_unique_upstreams": 1501,
+        "evaluated_relations_total": 57751881,
+        "unparseable_relations": 268488,
+        "unparseable_pct": 0.4627,
+        "openness_counts": {
+          "wide": 1113516,
+          "patch": 6163857,
+          "minor": 40096093,
+          "exact": 10378415
+        },
+        "elapsed_seconds": 1566.7
+      },
+      "mal_summary": {
+        "counts": {
+          "unmatched_in_eco": 1241,
+          "negative_dwell_excluded": 1023,
+          "matched_valid": 206478,
+          "ver_unmatched": 1227,
+          "matched_prev_legit": 895,
+          "matched_live_2024": 174200,
+          "matched_prev_legit_2024": 878,
+          "matched_live_2025": 9973
+        },
+        "n_valid_all": 206478,
+        "n_valid_live_2024": 174200,
+        "n_valid_live_2025": 9973,
+        "n_valid_prev_legit": 895,
+        "n_valid_prev_legit_2024": 878,
+        "median_days_all": 539.197,
+        "p25_days_all": 487.86,
+        "p75_days_all": 550.324,
+        "p90_days_all": 802.457,
+        "median_days_live_2024": 537.051,
+        "p25_days_live_2024": 488.582,
+        "p75_days_live_2024": 546.335,
+        "p90_days_live_2024": 551.827,
+        "median_days_live_2025": 8.71,
+        "median_days_prev_legit": 0.461,
+        "median_days_prev_legit_2024": 0.46,
+        "blocking_all_pct": {
+          "0": 0.0,
+          "1": 2.863,
+          "3": 3.488,
+          "7": 4.319,
+          "14": 5.684,
+          "30": 7.016
+        },
+        "blocking_live_2024_pct": {
+          "0": 0.0,
+          "1": 2.556,
+          "3": 3.077,
+          "7": 3.753,
+          "14": 5.003,
+          "30": 6.47
+        },
+        "blocking_live_2025_pct": {
+          "0": 0.0,
+          "1": 30.733,
+          "3": 37.912,
+          "7": 46.666,
+          "14": 64.775,
+          "30": 85.02
+        },
+        "blocking_prev_legit_pct": {
+          "0": 0.0,
+          "1": 81.788,
+          "3": 95.084,
+          "7": 96.201,
+          "14": 96.648,
+          "30": 96.648
+        },
+        "blocking_prev_legit_2024_pct": {
+          "0": 0.0,
+          "1": 82.46,
+          "3": 96.014,
+          "7": 97.039,
+          "14": 97.494,
+          "30": 97.494
+        }
+      },
+      "lag_summary": {
+        "ghsa_lag_days_p10_p25_med_p75_p90": [
+          0.15,
+          1.13,
+          10.48,
+          93.05,
+          396.8
+        ],
+        "osv_lag_days_p10_p25_med_p75_p90": [
+          0.15,
+          1.13,
+          10.48,
+          93.05,
+          396.8
+        ],
+        "ghsa_precedes_fix_pct": 5.74,
+        "osv_precedes_fix_pct": 5.74,
+        "vendor_lag_gt0_pct": 0.0,
+        "vendor_lag_gt7d_pct": 0.0,
+        "vendor_lag_med_days_pos": 0.0
+      },
+      "top3_hubs": [
+        "lodash",
+        "axios",
+        "express"
+      ],
+      "top3_hub_share_pct": 47.41,
+      "gates": {
+        "0": {
+          "k_days": 0,
+          "weighted_add_no_days_full": 0.0,
+          "weighted_add_ghsa_days_full": 0.0,
+          "weighted_add_osv_days_full": 0.0,
+          "weighted_add_zero_days_full": 0.0,
+          "weighted_r0_days_full": 1491392569.03,
+          "rec_ghsa_full_pct": 0.0,
+          "rec_ghsa_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_full_pct": 0.0,
+          "rec_osv_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 0.0,
+          "rec_ghsa_act_pct": 0.0,
+          "rec_ghsa_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_act_pct": 0.0,
+          "rec_osv_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 0.0,
+          "baseline_unw_osv_pct": 0.0,
+          "gap_vs_unw_ghsa_pp": 0.0,
+          "gap_vs_unw_ghsa_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_vs_unw_osv_pp": 0.0,
+          "gap_vs_unw_osv_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_ghsa_recent_2022_pct": 0.0,
+          "rec_osv_recent_2022_pct": 0.0,
+          "rec_ghsa_notop3_pct": 0.0,
+          "rec_osv_notop3_pct": 0.0,
+          "per_rel_add_no_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "unavail_fresh_pct_full": 0.0,
+          "unavail_sync_pct_full": 0.0,
+          "unavail_fresh_day_pct_full": 0.0,
+          "unavail_sync_day_pct_full": 0.0,
+          "unavail_fresh_pct_act": 0.0,
+          "unavail_sync_pct_act": 0.0
+        },
+        "1": {
+          "k_days": 1,
+          "weighted_add_no_days_full": 2117833.54,
+          "weighted_add_ghsa_days_full": 1398252.32,
+          "weighted_add_osv_days_full": 1398252.32,
+          "weighted_add_zero_days_full": 1146.69,
+          "weighted_r0_days_full": 1491392569.03,
+          "rec_ghsa_full_pct": 33.98,
+          "rec_ghsa_full_ci95": [
+            23.34,
+            45.35
+          ],
+          "rec_osv_full_pct": 33.98,
+          "rec_osv_full_ci95": [
+            23.34,
+            45.35
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 99.95,
+          "rec_ghsa_act_pct": 30.73,
+          "rec_ghsa_act_ci95": [
+            22.14,
+            40.98
+          ],
+          "rec_osv_act_pct": 30.73,
+          "rec_osv_act_ci95": [
+            22.14,
+            40.98
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 15.76,
+          "baseline_unw_osv_pct": 15.76,
+          "gap_vs_unw_ghsa_pp": 18.21,
+          "gap_vs_unw_ghsa_ci95": [
+            7.67,
+            29.25
+          ],
+          "gap_vs_unw_osv_pp": 18.21,
+          "gap_vs_unw_osv_ci95": [
+            7.67,
+            29.25
+          ],
+          "rec_ghsa_recent_2022_pct": 46.3,
+          "rec_osv_recent_2022_pct": 46.3,
+          "rec_ghsa_notop3_pct": 27.69,
+          "rec_osv_notop3_pct": 27.69,
+          "per_rel_add_no_med_iqr_p90": [
+            0.09,
+            0.017,
+            0.364,
+            0.857
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.061,
+            0.003,
+            0.25,
+            0.64
+          ],
+          "unavail_fresh_pct_full": 0.524,
+          "unavail_sync_pct_full": 0.039,
+          "unavail_fresh_day_pct_full": 0.0039,
+          "unavail_sync_day_pct_full": 0.0003,
+          "unavail_fresh_pct_act": 0.522,
+          "unavail_sync_pct_act": 0.041
+        },
+        "3": {
+          "k_days": 3,
+          "weighted_add_no_days_full": 6331515.94,
+          "weighted_add_ghsa_days_full": 3414403.88,
+          "weighted_add_osv_days_full": 3414403.88,
+          "weighted_add_zero_days_full": 1095.42,
+          "weighted_r0_days_full": 1491392569.03,
+          "rec_ghsa_full_pct": 46.07,
+          "rec_ghsa_full_ci95": [
+            34.64,
+            56.88
+          ],
+          "rec_osv_full_pct": 46.07,
+          "rec_osv_full_ci95": [
+            34.64,
+            56.88
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 99.98,
+          "rec_ghsa_act_pct": 42.96,
+          "rec_ghsa_act_ci95": [
+            33.74,
+            53.8
+          ],
+          "rec_osv_act_pct": 42.96,
+          "rec_osv_act_ci95": [
+            33.74,
+            53.8
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 25.95,
+          "baseline_unw_osv_pct": 25.95,
+          "gap_vs_unw_ghsa_pp": 20.12,
+          "gap_vs_unw_ghsa_ci95": [
+            9.14,
+            30.77
+          ],
+          "gap_vs_unw_osv_pp": 20.12,
+          "gap_vs_unw_osv_ci95": [
+            9.14,
+            30.77
+          ],
+          "rec_ghsa_recent_2022_pct": 61.4,
+          "rec_osv_recent_2022_pct": 61.4,
+          "rec_ghsa_notop3_pct": 40.39,
+          "rec_osv_notop3_pct": 40.39,
+          "per_rel_add_no_med_iqr_p90": [
+            0.27,
+            0.051,
+            1.061,
+            2.4
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.136,
+            0.003,
+            0.529,
+            1.5
+          ],
+          "unavail_fresh_pct_full": 1.228,
+          "unavail_sync_pct_full": 0.043,
+          "unavail_fresh_day_pct_full": 0.0166,
+          "unavail_sync_day_pct_full": 0.0008,
+          "unavail_fresh_pct_act": 1.22,
+          "unavail_sync_pct_act": 0.045
+        },
+        "7": {
+          "k_days": 7,
+          "weighted_add_no_days_full": 14690584.66,
+          "weighted_add_ghsa_days_full": 6872800.33,
+          "weighted_add_osv_days_full": 6872800.33,
+          "weighted_add_zero_days_full": -4588.23,
+          "weighted_r0_days_full": 1491392569.03,
+          "rec_ghsa_full_pct": 53.22,
+          "rec_ghsa_full_ci95": [
+            42.6,
+            64.25
+          ],
+          "rec_osv_full_pct": 53.22,
+          "rec_osv_full_ci95": [
+            42.6,
+            64.25
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.03,
+          "rec_ghsa_act_pct": 50.26,
+          "rec_ghsa_act_ci95": [
+            40.61,
+            62.53
+          ],
+          "rec_osv_act_pct": 50.26,
+          "rec_osv_act_ci95": [
+            40.61,
+            62.53
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 34.66,
+          "baseline_unw_osv_pct": 34.66,
+          "gap_vs_unw_ghsa_pp": 18.56,
+          "gap_vs_unw_ghsa_ci95": [
+            7.87,
+            29.57
+          ],
+          "gap_vs_unw_osv_pp": 18.56,
+          "gap_vs_unw_osv_ci95": [
+            7.87,
+            29.57
+          ],
+          "rec_ghsa_recent_2022_pct": 70.48,
+          "rec_osv_recent_2022_pct": 70.48,
+          "rec_ghsa_notop3_pct": 50.99,
+          "rec_osv_notop3_pct": 50.99,
+          "per_rel_add_no_med_iqr_p90": [
+            0.622,
+            0.114,
+            2.338,
+            5.333
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.225,
+            0.004,
+            0.948,
+            3.393
+          ],
+          "unavail_fresh_pct_full": 2.677,
+          "unavail_sync_pct_full": 0.046,
+          "unavail_fresh_day_pct_full": 0.0552,
+          "unavail_sync_day_pct_full": 0.0017,
+          "unavail_fresh_pct_act": 2.658,
+          "unavail_sync_pct_act": 0.048,
+          "unavail_fresh_pct_full_ci95": [
+            2.155,
+            3.349
+          ],
+          "rec_osv_eod_full_pct": 53.22,
+          "rec_osv_eod_full_ci95": [
+            42.6,
+            64.25
+          ],
+          "feed_gain_eod_full_pp": 0.0,
+          "feed_gain_eod_full_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "14": {
+          "k_days": 14,
+          "weighted_add_no_days_full": 28554055.03,
+          "weighted_add_ghsa_days_full": 11220463.93,
+          "weighted_add_osv_days_full": 11220463.93,
+          "weighted_add_zero_days_full": -26067.23,
+          "weighted_r0_days_full": 1491392569.03,
+          "rec_ghsa_full_pct": 60.7,
+          "rec_ghsa_full_ci95": [
+            50.01,
+            71.87
+          ],
+          "rec_osv_full_pct": 60.7,
+          "rec_osv_full_ci95": [
+            50.01,
+            71.87
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.09,
+          "rec_ghsa_act_pct": 57.75,
+          "rec_ghsa_act_ci95": [
+            48.13,
+            70.3
+          ],
+          "rec_osv_act_pct": 57.75,
+          "rec_osv_act_ci95": [
+            48.13,
+            70.3
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 42.34,
+          "baseline_unw_osv_pct": 42.34,
+          "gap_vs_unw_ghsa_pp": 18.36,
+          "gap_vs_unw_ghsa_ci95": [
+            7.93,
+            29.52
+          ],
+          "gap_vs_unw_osv_pp": 18.36,
+          "gap_vs_unw_osv_ci95": [
+            7.93,
+            29.52
+          ],
+          "rec_ghsa_recent_2022_pct": 78.79,
+          "rec_osv_recent_2022_pct": 78.79,
+          "rec_ghsa_notop3_pct": 58.98,
+          "rec_osv_notop3_pct": 58.98,
+          "per_rel_add_no_med_iqr_p90": [
+            1.216,
+            0.207,
+            4.667,
+            10.5
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.292,
+            0.003,
+            1.502,
+            5.422
+          ],
+          "unavail_fresh_pct_full": 5.065,
+          "unavail_sync_pct_full": 0.051,
+          "unavail_fresh_day_pct_full": 0.1531,
+          "unavail_sync_day_pct_full": 0.0031,
+          "unavail_fresh_pct_act": 5.022,
+          "unavail_sync_pct_act": 0.054
+        },
+        "30": {
+          "k_days": 30,
+          "weighted_add_no_days_full": 57282275.8,
+          "weighted_add_ghsa_days_full": 19184942.22,
+          "weighted_add_osv_days_full": 19184942.22,
+          "weighted_add_zero_days_full": -104100.79,
+          "weighted_r0_days_full": 1491392569.03,
+          "rec_ghsa_full_pct": 66.51,
+          "rec_ghsa_full_ci95": [
+            52.58,
+            80.06
+          ],
+          "rec_osv_full_pct": 66.51,
+          "rec_osv_full_ci95": [
+            52.58,
+            80.06
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.18,
+          "rec_ghsa_act_pct": 63.4,
+          "rec_ghsa_act_ci95": [
+            50.55,
+            77.82
+          ],
+          "rec_osv_act_pct": 63.4,
+          "rec_osv_act_ci95": [
+            50.55,
+            77.82
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 51.33,
+          "baseline_unw_osv_pct": 51.33,
+          "gap_vs_unw_ghsa_pp": 15.18,
+          "gap_vs_unw_ghsa_ci95": [
+            1.66,
+            28.53
+          ],
+          "gap_vs_unw_osv_pp": 15.18,
+          "gap_vs_unw_osv_ci95": [
+            1.66,
+            28.53
+          ],
+          "rec_ghsa_recent_2022_pct": 85.56,
+          "rec_osv_recent_2022_pct": 85.56,
+          "rec_ghsa_notop3_pct": 67.09,
+          "rec_osv_notop3_pct": 67.09,
+          "per_rel_add_no_med_iqr_p90": [
+            2.485,
+            0.418,
+            9.308,
+            21.429
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.309,
+            0.0,
+            2.308,
+            9.324
+          ],
+          "unavail_fresh_pct_full": 9.705,
+          "unavail_sync_pct_full": 0.064,
+          "unavail_fresh_day_pct_full": 0.4801,
+          "unavail_sync_day_pct_full": 0.006,
+          "unavail_fresh_pct_act": 9.633,
+          "unavail_sync_pct_act": 0.069
+        }
+      },
+      "severity_k7": {
+        "CRITICAL": {
+          "n_adv": 416,
+          "rec_ghsa_7_pct": 54.55,
+          "rec_osv_7_pct": 54.55
+        },
+        "HIGH": {
+          "n_adv": 1070,
+          "rec_ghsa_7_pct": 58.77,
+          "rec_osv_7_pct": 58.77
+        },
+        "MODERATE": {
+          "n_adv": 1050,
+          "rec_ghsa_7_pct": 44.43,
+          "rec_osv_7_pct": 44.43
+        },
+        "LOW": {
+          "n_adv": 184,
+          "rec_ghsa_7_pct": 67.37,
+          "rec_osv_7_pct": 67.37
+        }
+      },
+      "depth2_summary": {
+        "sample_advisories": 50,
+        "unique_intermediates": 443301,
+        "direct_unique_intermediates": 448464,
+        "fanout_weighted_pkgs": 4471931,
+        "d1_fix_admit_pct": 40.99,
+        "d2_fanout_weighted_admit_pct": 58.11,
+        "mean_rev_dep_fanout": 9.97,
+        "elapsed_sec": 53.4
+      },
+      "openness_k7_cells": {
+        "exact": {
+          "exposure_share_pct": 0.0,
+          "nat_rec_pct": 0.0,
+          "ghsa_rec_pct": 0.0,
+          "ghsa_loss_pp": 0.0
+        },
+        "patch": {
+          "exposure_share_pct": 3.71,
+          "nat_rec_pct": 44.99,
+          "ghsa_rec_pct": 44.99,
+          "ghsa_loss_pp": 0.0
+        },
+        "minor": {
+          "exposure_share_pct": 93.72,
+          "nat_rec_pct": 54.08,
+          "ghsa_rec_pct": 54.08,
+          "ghsa_loss_pp": 0.0
+        },
+        "wide": {
+          "exposure_share_pct": 2.57,
+          "nat_rec_pct": 33.29,
+          "ghsa_rec_pct": 33.29,
+          "ghsa_loss_pp": 0.0
+        }
+      }
+    },
+    "pypi": {
+      "audit": {
+        "ecosystem": "pypi",
+        "pkg_parts": 2229,
+        "ver_parts": 1352,
+        "dep_parts": 1978,
+        "packages_total": 783722,
+        "ghsa_fixed_raw": 6941,
+        "mal_records_raw": 10500,
+        "versions_total": 8475486,
+        "versions_null_ts": 33792,
+        "eligible_linked_advisories": 3788,
+        "link_drops": {
+          "fix_outside_2018_2026": 461,
+          "fixed_ver_not_found": 2540,
+          "empty_vuln_set": 22,
+          "pkg_not_in_eco": 130
+        },
+        "selected_advisories": 3788,
+        "selected_unique_upstreams": 834,
+        "dependencies_total_rows": 34483140,
+        "matched_raw_dep_edges": 10004787,
+        "live_relations_total": 9949513,
+        "live_relations_dropped_bad_ts": 55274,
+        "advisories_with_live_rels": 3378,
+        "evaluated_unique_upstreams": 630,
+        "evaluated_relations_total": 9945491,
+        "unparseable_relations": 4022,
+        "unparseable_pct": 0.0404,
+        "openness_counts": {
+          "wide": 6501970,
+          "minor": 1483156,
+          "patch": 461446,
+          "exact": 1498919
+        },
+        "elapsed_seconds": 577.4
+      },
+      "mal_summary": {
+        "counts": {
+          "matched_valid": 4841,
+          "negative_dwell_excluded": 640,
+          "ver_unmatched": 48,
+          "unmatched_in_eco": 4971,
+          "matched_prev_legit": 69,
+          "matched_live_2024": 1616,
+          "matched_prev_legit_2024": 61,
+          "matched_live_2025": 823
+        },
+        "n_valid_all": 4841,
+        "n_valid_live_2024": 1616,
+        "n_valid_live_2025": 823,
+        "n_valid_prev_legit": 69,
+        "n_valid_prev_legit_2024": 61,
+        "median_days_all": 0.118,
+        "p25_days_all": 0.084,
+        "p75_days_all": 168.155,
+        "p90_days_all": 486.273,
+        "median_days_live_2024": 4.729,
+        "p25_days_live_2024": 0.103,
+        "p75_days_live_2024": 60.715,
+        "p90_days_live_2024": 90.63,
+        "median_days_live_2025": 0.212,
+        "median_days_prev_legit": 25.047,
+        "median_days_prev_legit_2024": 25.045,
+        "blocking_all_pct": {
+          "0": 0.0,
+          "1": 56.724,
+          "3": 58.087,
+          "7": 58.769,
+          "14": 62.012,
+          "30": 64.449
+        },
+        "blocking_live_2024_pct": {
+          "0": 0.0,
+          "1": 45.297,
+          "3": 49.257,
+          "7": 50.99,
+          "14": 60.705,
+          "30": 68.007
+        },
+        "blocking_live_2025_pct": {
+          "0": 0.0,
+          "1": 68.165,
+          "3": 73.39,
+          "7": 76.185,
+          "14": 78.979,
+          "30": 90.887
+        },
+        "blocking_prev_legit_pct": {
+          "0": 0.0,
+          "1": 5.797,
+          "3": 5.797,
+          "7": 7.246,
+          "14": 7.246,
+          "30": 84.058
+        },
+        "blocking_prev_legit_2024_pct": {
+          "0": 0.0,
+          "1": 3.279,
+          "3": 3.279,
+          "7": 4.918,
+          "14": 4.918,
+          "30": 91.803
+        }
+      },
+      "lag_summary": {
+        "ghsa_lag_days_p10_p25_med_p75_p90": [
+          -25.27,
+          0.59,
+          7.28,
+          48.34,
+          199.83
+        ],
+        "osv_lag_days_p10_p25_med_p75_p90": [
+          -32.03,
+          0.26,
+          2.26,
+          22.37,
+          123.14
+        ],
+        "ghsa_precedes_fix_pct": 16.28,
+        "osv_precedes_fix_pct": 18.74,
+        "vendor_lag_gt0_pct": 52.78,
+        "vendor_lag_gt7d_pct": 15.07,
+        "vendor_lag_med_days_pos": 6.32
+      },
+      "top3_hubs": [
+        "django",
+        "aiohttp",
+        "requests"
+      ],
+      "top3_hub_share_pct": 41.6,
+      "gates": {
+        "0": {
+          "k_days": 0,
+          "weighted_add_no_days_full": 0.0,
+          "weighted_add_ghsa_days_full": 0.0,
+          "weighted_add_osv_days_full": 0.0,
+          "weighted_add_zero_days_full": 0.0,
+          "weighted_r0_days_full": 120965933.41,
+          "rec_ghsa_full_pct": 0.0,
+          "rec_ghsa_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_full_pct": 0.0,
+          "rec_osv_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 0.0,
+          "rec_ghsa_act_pct": 0.0,
+          "rec_ghsa_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_act_pct": 0.0,
+          "rec_osv_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 0.0,
+          "baseline_unw_osv_pct": 0.0,
+          "gap_vs_unw_ghsa_pp": 0.0,
+          "gap_vs_unw_ghsa_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_vs_unw_osv_pp": 0.0,
+          "gap_vs_unw_osv_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_ghsa_recent_2022_pct": 0.0,
+          "rec_osv_recent_2022_pct": 0.0,
+          "rec_ghsa_notop3_pct": 0.0,
+          "rec_osv_notop3_pct": 0.0,
+          "per_rel_add_no_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "unavail_fresh_pct_full": 0.0,
+          "unavail_sync_pct_full": 0.0,
+          "unavail_fresh_day_pct_full": 0.0,
+          "unavail_sync_day_pct_full": 0.0,
+          "unavail_fresh_pct_act": 0.0,
+          "unavail_sync_pct_act": 0.0
+        },
+        "1": {
+          "k_days": 1,
+          "weighted_add_no_days_full": 947124.99,
+          "weighted_add_ghsa_days_full": 639834.82,
+          "weighted_add_osv_days_full": 608276.09,
+          "weighted_add_zero_days_full": -15250.14,
+          "weighted_r0_days_full": 120965933.41,
+          "rec_ghsa_full_pct": 32.44,
+          "rec_ghsa_full_ci95": [
+            16.61,
+            46.62
+          ],
+          "rec_osv_full_pct": 35.78,
+          "rec_osv_full_ci95": [
+            18.11,
+            50.24
+          ],
+          "feed_gain_full_pp": 3.33,
+          "feed_gain_full_ci95": [
+            0.97,
+            5.89
+          ],
+          "rec_zero_full_pct": 101.61,
+          "rec_ghsa_act_pct": 31.23,
+          "rec_ghsa_act_ci95": [
+            16.7,
+            45.23
+          ],
+          "rec_osv_act_pct": 34.83,
+          "rec_osv_act_ci95": [
+            18.44,
+            49.2
+          ],
+          "feed_gain_act_pp": 3.6,
+          "feed_gain_act_ci95": [
+            1.09,
+            6.27
+          ],
+          "baseline_unw_ghsa_pct": 23.82,
+          "baseline_unw_osv_pct": 28.45,
+          "gap_vs_unw_ghsa_pp": 8.62,
+          "gap_vs_unw_ghsa_ci95": [
+            -7.21,
+            23.15
+          ],
+          "gap_vs_unw_osv_pp": 7.33,
+          "gap_vs_unw_osv_ci95": [
+            -9.74,
+            21.4
+          ],
+          "rec_ghsa_recent_2022_pct": 35.05,
+          "rec_osv_recent_2022_pct": 36.89,
+          "rec_ghsa_notop3_pct": 27.49,
+          "rec_osv_notop3_pct": 29.48,
+          "per_rel_add_no_med_iqr_p90": [
+            0.022,
+            0.005,
+            0.075,
+            0.34
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.018,
+            0.0,
+            0.049,
+            0.176
+          ],
+          "unavail_fresh_pct_full": 0.302,
+          "unavail_sync_pct_full": 0.025,
+          "unavail_fresh_day_pct_full": 0.0065,
+          "unavail_sync_day_pct_full": 0.0004,
+          "unavail_fresh_pct_act": 0.304,
+          "unavail_sync_pct_act": 0.025
+        },
+        "3": {
+          "k_days": 3,
+          "weighted_add_no_days_full": 2784006.68,
+          "weighted_add_ghsa_days_full": 1564429.67,
+          "weighted_add_osv_days_full": 1420257.86,
+          "weighted_add_zero_days_full": -45995.63,
+          "weighted_r0_days_full": 120965933.41,
+          "rec_ghsa_full_pct": 43.81,
+          "rec_ghsa_full_ci95": [
+            28.51,
+            57.39
+          ],
+          "rec_osv_full_pct": 48.99,
+          "rec_osv_full_ci95": [
+            32.32,
+            63.24
+          ],
+          "feed_gain_full_pp": 5.18,
+          "feed_gain_full_ci95": [
+            1.66,
+            8.53
+          ],
+          "rec_zero_full_pct": 101.65,
+          "rec_ghsa_act_pct": 42.59,
+          "rec_ghsa_act_ci95": [
+            27.33,
+            56.06
+          ],
+          "rec_osv_act_pct": 48.29,
+          "rec_osv_act_ci95": [
+            31.73,
+            62.39
+          ],
+          "feed_gain_act_pp": 5.7,
+          "feed_gain_act_ci95": [
+            1.86,
+            9.19
+          ],
+          "baseline_unw_ghsa_pct": 31.71,
+          "baseline_unw_osv_pct": 40.46,
+          "gap_vs_unw_ghsa_pp": 12.09,
+          "gap_vs_unw_ghsa_ci95": [
+            -3.07,
+            25.65
+          ],
+          "gap_vs_unw_osv_pp": 8.52,
+          "gap_vs_unw_osv_ci95": [
+            -7.4,
+            22.44
+          ],
+          "rec_ghsa_recent_2022_pct": 47.35,
+          "rec_osv_recent_2022_pct": 50.08,
+          "rec_ghsa_notop3_pct": 35.62,
+          "rec_osv_notop3_pct": 39.8,
+          "per_rel_add_no_med_iqr_p90": [
+            0.07,
+            0.016,
+            0.225,
+            1.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.047,
+            0.0,
+            0.126,
+            0.422
+          ],
+          "unavail_fresh_pct_full": 0.502,
+          "unavail_sync_pct_full": 0.032,
+          "unavail_fresh_day_pct_full": 0.0225,
+          "unavail_sync_day_pct_full": 0.001,
+          "unavail_fresh_pct_act": 0.501,
+          "unavail_sync_pct_act": 0.033
+        },
+        "7": {
+          "k_days": 7,
+          "weighted_add_no_days_full": 6428854.2,
+          "weighted_add_ghsa_days_full": 2951498.19,
+          "weighted_add_osv_days_full": 2545225.57,
+          "weighted_add_zero_days_full": -105656.1,
+          "weighted_r0_days_full": 120965933.41,
+          "rec_ghsa_full_pct": 54.09,
+          "rec_ghsa_full_ci95": [
+            39.44,
+            66.14
+          ],
+          "rec_osv_full_pct": 60.41,
+          "rec_osv_full_ci95": [
+            46.68,
+            71.73
+          ],
+          "feed_gain_full_pp": 6.32,
+          "feed_gain_full_ci95": [
+            1.77,
+            10.71
+          ],
+          "rec_zero_full_pct": 101.64,
+          "rec_ghsa_act_pct": 52.82,
+          "rec_ghsa_act_ci95": [
+            38.05,
+            65.31
+          ],
+          "rec_osv_act_pct": 59.84,
+          "rec_osv_act_ci95": [
+            45.95,
+            71.24
+          ],
+          "feed_gain_act_pp": 7.02,
+          "feed_gain_act_ci95": [
+            2.05,
+            11.68
+          ],
+          "baseline_unw_ghsa_pct": 38.71,
+          "baseline_unw_osv_pct": 52.29,
+          "gap_vs_unw_ghsa_pp": 15.38,
+          "gap_vs_unw_ghsa_ci95": [
+            1.04,
+            26.67
+          ],
+          "gap_vs_unw_osv_pp": 8.11,
+          "gap_vs_unw_osv_ci95": [
+            -5.39,
+            19.92
+          ],
+          "rec_ghsa_recent_2022_pct": 58.38,
+          "rec_osv_recent_2022_pct": 61.42,
+          "rec_ghsa_notop3_pct": 42.65,
+          "rec_osv_notop3_pct": 49.23,
+          "per_rel_add_no_med_iqr_p90": [
+            0.165,
+            0.037,
+            0.525,
+            2.329
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.091,
+            0.0,
+            0.224,
+            0.707
+          ],
+          "unavail_fresh_pct_full": 0.946,
+          "unavail_sync_pct_full": 0.042,
+          "unavail_fresh_day_pct_full": 0.063,
+          "unavail_sync_day_pct_full": 0.0022,
+          "unavail_fresh_pct_act": 0.94,
+          "unavail_sync_pct_act": 0.043,
+          "unavail_fresh_pct_full_ci95": [
+            0.653,
+            1.441
+          ],
+          "rec_osv_eod_full_pct": 60.41,
+          "rec_osv_eod_full_ci95": [
+            46.68,
+            71.73
+          ],
+          "feed_gain_eod_full_pp": 6.32,
+          "feed_gain_eod_full_ci95": [
+            1.77,
+            10.71
+          ]
+        },
+        "14": {
+          "k_days": 14,
+          "weighted_add_no_days_full": 12769577.46,
+          "weighted_add_ghsa_days_full": 4743711.86,
+          "weighted_add_osv_days_full": 4032748.09,
+          "weighted_add_zero_days_full": -107526.7,
+          "weighted_r0_days_full": 120965933.41,
+          "rec_ghsa_full_pct": 62.85,
+          "rec_ghsa_full_ci95": [
+            48.93,
+            72.71
+          ],
+          "rec_osv_full_pct": 68.42,
+          "rec_osv_full_ci95": [
+            55.09,
+            77.56
+          ],
+          "feed_gain_full_pp": 5.57,
+          "feed_gain_full_ci95": [
+            1.98,
+            9.4
+          ],
+          "rec_zero_full_pct": 100.84,
+          "rec_ghsa_act_pct": 61.78,
+          "rec_ghsa_act_ci95": [
+            47.6,
+            71.96
+          ],
+          "rec_osv_act_pct": 68.0,
+          "rec_osv_act_ci95": [
+            54.64,
+            77.2
+          ],
+          "feed_gain_act_pp": 6.21,
+          "feed_gain_act_ci95": [
+            2.15,
+            10.11
+          ],
+          "baseline_unw_ghsa_pct": 49.11,
+          "baseline_unw_osv_pct": 61.5,
+          "gap_vs_unw_ghsa_pp": 13.74,
+          "gap_vs_unw_ghsa_ci95": [
+            0.27,
+            23.91
+          ],
+          "gap_vs_unw_osv_pp": 6.92,
+          "gap_vs_unw_osv_ci95": [
+            -5.93,
+            17.77
+          ],
+          "rec_ghsa_recent_2022_pct": 67.36,
+          "rec_osv_recent_2022_pct": 69.38,
+          "rec_ghsa_notop3_pct": 50.93,
+          "rec_osv_notop3_pct": 57.22,
+          "per_rel_add_no_med_iqr_p90": [
+            0.306,
+            0.074,
+            1.05,
+            4.65
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.128,
+            0.001,
+            0.316,
+            1.05
+          ],
+          "unavail_fresh_pct_full": 1.812,
+          "unavail_sync_pct_full": 0.056,
+          "unavail_fresh_day_pct_full": 0.1466,
+          "unavail_sync_day_pct_full": 0.0039,
+          "unavail_fresh_pct_act": 1.801,
+          "unavail_sync_pct_act": 0.058
+        },
+        "30": {
+          "k_days": 30,
+          "weighted_add_no_days_full": 26927761.79,
+          "weighted_add_ghsa_days_full": 8018430.24,
+          "weighted_add_osv_days_full": 6831739.46,
+          "weighted_add_zero_days_full": -115935.68,
+          "weighted_r0_days_full": 120965933.41,
+          "rec_ghsa_full_pct": 70.22,
+          "rec_ghsa_full_ci95": [
+            56.41,
+            79.22
+          ],
+          "rec_osv_full_pct": 74.63,
+          "rec_osv_full_ci95": [
+            61.12,
+            83.15
+          ],
+          "feed_gain_full_pp": 4.41,
+          "feed_gain_full_ci95": [
+            1.9,
+            6.89
+          ],
+          "rec_zero_full_pct": 100.43,
+          "rec_ghsa_act_pct": 69.45,
+          "rec_ghsa_act_ci95": [
+            55.51,
+            78.5
+          ],
+          "rec_osv_act_pct": 74.36,
+          "rec_osv_act_ci95": [
+            61.0,
+            82.7
+          ],
+          "feed_gain_act_pp": 4.91,
+          "feed_gain_act_ci95": [
+            2.11,
+            7.38
+          ],
+          "baseline_unw_ghsa_pct": 59.97,
+          "baseline_unw_osv_pct": 68.64,
+          "gap_vs_unw_ghsa_pp": 10.25,
+          "gap_vs_unw_ghsa_ci95": [
+            -2.86,
+            21.09
+          ],
+          "gap_vs_unw_osv_pp": 5.99,
+          "gap_vs_unw_osv_ci95": [
+            -6.7,
+            16.17
+          ],
+          "rec_ghsa_recent_2022_pct": 74.14,
+          "rec_osv_recent_2022_pct": 75.49,
+          "rec_ghsa_notop3_pct": 58.53,
+          "rec_osv_notop3_pct": 63.72,
+          "per_rel_add_no_med_iqr_p90": [
+            0.645,
+            0.159,
+            2.302,
+            8.816
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.134,
+            0.006,
+            0.479,
+            1.967
+          ],
+          "unavail_fresh_pct_full": 3.881,
+          "unavail_sync_pct_full": 0.077,
+          "unavail_fresh_day_pct_full": 0.4429,
+          "unavail_sync_day_pct_full": 0.0071,
+          "unavail_fresh_pct_act": 3.859,
+          "unavail_sync_pct_act": 0.083
+        }
+      },
+      "severity_k7": {
+        "CRITICAL": {
+          "n_adv": 285,
+          "rec_ghsa_7_pct": 41.44,
+          "rec_osv_7_pct": 50.93
+        },
+        "HIGH": {
+          "n_adv": 1196,
+          "rec_ghsa_7_pct": 45.53,
+          "rec_osv_7_pct": 57.25
+        },
+        "MODERATE": {
+          "n_adv": 1438,
+          "rec_ghsa_7_pct": 57.84,
+          "rec_osv_7_pct": 61.73
+        },
+        "LOW": {
+          "n_adv": 459,
+          "rec_ghsa_7_pct": 68.32,
+          "rec_osv_7_pct": 68.58
+        }
+      },
+      "depth2_summary": {
+        "sample_advisories": 50,
+        "unique_intermediates": 77872,
+        "direct_unique_intermediates": 112744,
+        "fanout_weighted_pkgs": 379107,
+        "d1_fix_admit_pct": 51.66,
+        "d2_fanout_weighted_admit_pct": 65.44,
+        "mean_rev_dep_fanout": 3.36,
+        "elapsed_sec": 14.1
+      },
+      "openness_k7_cells": {
+        "exact": {
+          "exposure_share_pct": 0.0,
+          "nat_rec_pct": 0.0,
+          "ghsa_rec_pct": 0.0,
+          "ghsa_loss_pp": 0.0
+        },
+        "patch": {
+          "exposure_share_pct": 2.0,
+          "nat_rec_pct": 43.19,
+          "ghsa_rec_pct": 31.91,
+          "ghsa_loss_pp": 11.28
+        },
+        "minor": {
+          "exposure_share_pct": 13.27,
+          "nat_rec_pct": 59.66,
+          "ghsa_rec_pct": 56.19,
+          "ghsa_loss_pp": 3.46
+        },
+        "wide": {
+          "exposure_share_pct": 84.73,
+          "nat_rec_pct": 60.93,
+          "ghsa_rec_pct": 54.28,
+          "ghsa_loss_pp": 6.65
+        }
+      }
+    },
+    "cargo": {
+      "audit": {
+        "ecosystem": "cargo",
+        "pkg_parts": 2229,
+        "ver_parts": 1352,
+        "dep_parts": 1951,
+        "packages_total": 233186,
+        "ghsa_fixed_raw": 1843,
+        "mal_records_raw": 3,
+        "versions_total": 1951214,
+        "versions_null_ts": 0,
+        "eligible_linked_advisories": 1311,
+        "link_drops": {
+          "fix_outside_2018_2026": 8,
+          "fixed_ver_not_found": 473,
+          "empty_vuln_set": 3,
+          "pkg_not_in_eco": 48
+        },
+        "selected_advisories": 1311,
+        "selected_unique_upstreams": 922,
+        "dependencies_total_rows": 17775681,
+        "matched_raw_dep_edges": 2691682,
+        "live_relations_total": 2691548,
+        "live_relations_dropped_bad_ts": 134,
+        "advisories_with_live_rels": 905,
+        "evaluated_unique_upstreams": 553,
+        "evaluated_relations_total": 2691548,
+        "unparseable_relations": 0,
+        "unparseable_pct": 0.0,
+        "openness_counts": {
+          "wide": 11486,
+          "minor": 1102734,
+          "patch": 1552922,
+          "exact": 24406
+        },
+        "elapsed_seconds": 57.5
+      },
+      "mal_summary": {
+        "counts": {
+          "matched_valid": 2,
+          "ver_unmatched": 1
+        },
+        "n_valid_all": 2,
+        "n_valid_live_2024": 0,
+        "n_valid_live_2025": 0,
+        "n_valid_prev_legit": 0,
+        "n_valid_prev_legit_2024": 0,
+        "median_days_all": 69.806,
+        "p25_days_all": 34.907,
+        "p75_days_all": 104.705,
+        "p90_days_all": 125.644,
+        "median_days_live_2024": null,
+        "p25_days_live_2024": null,
+        "p75_days_live_2024": null,
+        "p90_days_live_2024": null,
+        "median_days_live_2025": null,
+        "median_days_prev_legit": null,
+        "median_days_prev_legit_2024": null,
+        "blocking_all_pct": {
+          "0": 0.0,
+          "1": 50.0,
+          "3": 50.0,
+          "7": 50.0,
+          "14": 50.0,
+          "30": 50.0
+        },
+        "blocking_live_2024_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_live_2025_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_prev_legit_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_prev_legit_2024_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        }
+      },
+      "lag_summary": {
+        "ghsa_lag_days_p10_p25_med_p75_p90": [
+          0.12,
+          0.8,
+          29.12,
+          182.94,
+          489.17
+        ],
+        "osv_lag_days_p10_p25_med_p75_p90": [
+          -40.06,
+          -0.72,
+          0.04,
+          8.94,
+          63.05
+        ],
+        "ghsa_precedes_fix_pct": 4.97,
+        "osv_precedes_fix_pct": 46.85,
+        "vendor_lag_gt0_pct": 64.2,
+        "vendor_lag_gt7d_pct": 39.56,
+        "vendor_lag_med_days_pos": 50.23
+      },
+      "top3_hubs": [
+        "tokio",
+        "openssl",
+        "tracing"
+      ],
+      "top3_hub_share_pct": 59.17,
+      "gates": {
+        "0": {
+          "k_days": 0,
+          "weighted_add_no_days_full": 0.0,
+          "weighted_add_ghsa_days_full": 0.0,
+          "weighted_add_osv_days_full": 0.0,
+          "weighted_add_zero_days_full": 0.0,
+          "weighted_r0_days_full": 23479943.36,
+          "rec_ghsa_full_pct": 0.0,
+          "rec_ghsa_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_full_pct": 0.0,
+          "rec_osv_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 0.0,
+          "rec_ghsa_act_pct": 0.0,
+          "rec_ghsa_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_act_pct": 0.0,
+          "rec_osv_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 0.0,
+          "baseline_unw_osv_pct": 0.0,
+          "gap_vs_unw_ghsa_pp": 0.0,
+          "gap_vs_unw_ghsa_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_vs_unw_osv_pp": 0.0,
+          "gap_vs_unw_osv_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_ghsa_recent_2022_pct": 0.0,
+          "rec_osv_recent_2022_pct": 0.0,
+          "rec_ghsa_notop3_pct": 0.0,
+          "rec_osv_notop3_pct": 0.0,
+          "per_rel_add_no_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "unavail_fresh_pct_full": 0.0,
+          "unavail_sync_pct_full": 0.0,
+          "unavail_fresh_day_pct_full": 0.0,
+          "unavail_sync_day_pct_full": 0.0,
+          "unavail_fresh_pct_act": 0.0,
+          "unavail_sync_pct_act": 0.0
+        },
+        "1": {
+          "k_days": 1,
+          "weighted_add_no_days_full": 92095.94,
+          "weighted_add_ghsa_days_full": 74102.89,
+          "weighted_add_osv_days_full": 32834.53,
+          "weighted_add_zero_days_full": -22.73,
+          "weighted_r0_days_full": 23479943.36,
+          "rec_ghsa_full_pct": 19.54,
+          "rec_ghsa_full_ci95": [
+            5.02,
+            47.47
+          ],
+          "rec_osv_full_pct": 64.35,
+          "rec_osv_full_ci95": [
+            50.72,
+            86.36
+          ],
+          "feed_gain_full_pp": 44.81,
+          "feed_gain_full_ci95": [
+            36.42,
+            58.12
+          ],
+          "rec_zero_full_pct": 100.02,
+          "rec_ghsa_act_pct": 18.91,
+          "rec_ghsa_act_ci95": [
+            4.79,
+            45.91
+          ],
+          "rec_osv_act_pct": 64.56,
+          "rec_osv_act_ci95": [
+            51.31,
+            86.14
+          ],
+          "feed_gain_act_pp": 45.65,
+          "feed_gain_act_ci95": [
+            37.32,
+            58.21
+          ],
+          "baseline_unw_ghsa_pct": 18.74,
+          "baseline_unw_osv_pct": 58.89,
+          "gap_vs_unw_ghsa_pp": 0.8,
+          "gap_vs_unw_ghsa_ci95": [
+            -13.61,
+            28.73
+          ],
+          "gap_vs_unw_osv_pp": 5.46,
+          "gap_vs_unw_osv_ci95": [
+            -8.89,
+            28.47
+          ],
+          "rec_ghsa_recent_2022_pct": 23.82,
+          "rec_osv_recent_2022_pct": 62.91,
+          "rec_ghsa_notop3_pct": 39.63,
+          "rec_osv_notop3_pct": 82.5,
+          "per_rel_add_no_med_iqr_p90": [
+            0.088,
+            0.0,
+            0.32,
+            1.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.053,
+            0.0,
+            0.259,
+            1.0
+          ],
+          "unavail_fresh_pct_full": 1.069,
+          "unavail_sync_pct_full": 0.002,
+          "unavail_fresh_day_pct_full": 0.0132,
+          "unavail_sync_day_pct_full": 0.0007,
+          "unavail_fresh_pct_act": 1.083,
+          "unavail_sync_pct_act": 0.002
+        },
+        "3": {
+          "k_days": 3,
+          "weighted_add_no_days_full": 260589.79,
+          "weighted_add_ghsa_days_full": 175753.78,
+          "weighted_add_osv_days_full": 61155.68,
+          "weighted_add_zero_days_full": -72.67,
+          "weighted_r0_days_full": 23479943.36,
+          "rec_ghsa_full_pct": 32.56,
+          "rec_ghsa_full_ci95": [
+            19.51,
+            57.29
+          ],
+          "rec_osv_full_pct": 76.53,
+          "rec_osv_full_ci95": [
+            69.21,
+            89.61
+          ],
+          "feed_gain_full_pp": 43.98,
+          "feed_gain_full_ci95": [
+            30.72,
+            54.71
+          ],
+          "rec_zero_full_pct": 100.03,
+          "rec_ghsa_act_pct": 31.74,
+          "rec_ghsa_act_ci95": [
+            19.33,
+            54.91
+          ],
+          "rec_osv_act_pct": 76.71,
+          "rec_osv_act_ci95": [
+            69.72,
+            88.96
+          ],
+          "feed_gain_act_pp": 44.97,
+          "feed_gain_act_ci95": [
+            31.69,
+            54.98
+          ],
+          "baseline_unw_ghsa_pct": 28.98,
+          "baseline_unw_osv_pct": 65.63,
+          "gap_vs_unw_ghsa_pp": 3.57,
+          "gap_vs_unw_ghsa_ci95": [
+            -9.27,
+            27.55
+          ],
+          "gap_vs_unw_osv_pp": 10.91,
+          "gap_vs_unw_osv_ci95": [
+            2.49,
+            24.75
+          ],
+          "rec_ghsa_recent_2022_pct": 39.88,
+          "rec_osv_recent_2022_pct": 75.29,
+          "rec_ghsa_notop3_pct": 44.92,
+          "rec_osv_notop3_pct": 82.88,
+          "per_rel_add_no_med_iqr_p90": [
+            0.258,
+            0.0,
+            0.949,
+            3.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.093,
+            0.0,
+            0.644,
+            2.313
+          ],
+          "unavail_fresh_pct_full": 1.514,
+          "unavail_sync_pct_full": 0.005,
+          "unavail_fresh_day_pct_full": 0.0452,
+          "unavail_sync_day_pct_full": 0.0021,
+          "unavail_fresh_pct_act": 1.522,
+          "unavail_sync_pct_act": 0.005
+        },
+        "7": {
+          "k_days": 7,
+          "weighted_add_no_days_full": 588902.81,
+          "weighted_add_ghsa_days_full": 299703.71,
+          "weighted_add_osv_days_full": 78730.15,
+          "weighted_add_zero_days_full": -253.9,
+          "weighted_r0_days_full": 23479943.36,
+          "rec_ghsa_full_pct": 49.11,
+          "rec_ghsa_full_ci95": [
+            34.22,
+            63.96
+          ],
+          "rec_osv_full_pct": 86.63,
+          "rec_osv_full_ci95": [
+            81.53,
+            92.13
+          ],
+          "feed_gain_full_pp": 37.52,
+          "feed_gain_full_ci95": [
+            25.92,
+            50.65
+          ],
+          "rec_zero_full_pct": 100.04,
+          "rec_ghsa_act_pct": 48.09,
+          "rec_ghsa_act_ci95": [
+            33.14,
+            63.29
+          ],
+          "rec_osv_act_pct": 86.6,
+          "rec_osv_act_ci95": [
+            81.55,
+            91.72
+          ],
+          "feed_gain_act_pp": 38.51,
+          "feed_gain_act_ci95": [
+            26.6,
+            51.57
+          ],
+          "baseline_unw_ghsa_pct": 35.83,
+          "baseline_unw_osv_pct": 69.56,
+          "gap_vs_unw_ghsa_pp": 13.28,
+          "gap_vs_unw_ghsa_ci95": [
+            -1.81,
+            28.17
+          ],
+          "gap_vs_unw_osv_pp": 17.07,
+          "gap_vs_unw_osv_ci95": [
+            10.92,
+            24.03
+          ],
+          "rec_ghsa_recent_2022_pct": 59.71,
+          "rec_osv_recent_2022_pct": 86.88,
+          "rec_ghsa_notop3_pct": 51.1,
+          "rec_osv_notop3_pct": 84.75,
+          "per_rel_add_no_med_iqr_p90": [
+            0.588,
+            0.0,
+            2.1,
+            7.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.158,
+            0.0,
+            1.294,
+            4.667
+          ],
+          "unavail_fresh_pct_full": 2.532,
+          "unavail_sync_pct_full": 0.013,
+          "unavail_fresh_day_pct_full": 0.1298,
+          "unavail_sync_day_pct_full": 0.0045,
+          "unavail_fresh_pct_act": 2.539,
+          "unavail_sync_pct_act": 0.013,
+          "unavail_fresh_pct_full_ci95": [
+            1.928,
+            3.366
+          ],
+          "rec_osv_eod_full_pct": 82.93,
+          "rec_osv_eod_full_ci95": [
+            78.38,
+            88.72
+          ],
+          "feed_gain_eod_full_pp": 33.82,
+          "feed_gain_eod_full_ci95": [
+            22.89,
+            46.96
+          ]
+        },
+        "14": {
+          "k_days": 14,
+          "weighted_add_no_days_full": 1158255.6,
+          "weighted_add_ghsa_days_full": 498111.73,
+          "weighted_add_osv_days_full": 104305.97,
+          "weighted_add_zero_days_full": -529.35,
+          "weighted_r0_days_full": 23479943.36,
+          "rec_ghsa_full_pct": 56.99,
+          "rec_ghsa_full_ci95": [
+            37.1,
+            69.99
+          ],
+          "rec_osv_full_pct": 90.99,
+          "rec_osv_full_ci95": [
+            83.86,
+            93.96
+          ],
+          "feed_gain_full_pp": 34.0,
+          "feed_gain_full_ci95": [
+            21.29,
+            50.46
+          ],
+          "rec_zero_full_pct": 100.05,
+          "rec_ghsa_act_pct": 55.95,
+          "rec_ghsa_act_ci95": [
+            37.87,
+            69.19
+          ],
+          "rec_osv_act_pct": 90.9,
+          "rec_osv_act_ci95": [
+            83.52,
+            93.84
+          ],
+          "feed_gain_act_pp": 34.95,
+          "feed_gain_act_ci95": [
+            22.02,
+            49.85
+          ],
+          "baseline_unw_ghsa_pct": 40.44,
+          "baseline_unw_osv_pct": 72.58,
+          "gap_vs_unw_ghsa_pp": 16.55,
+          "gap_vs_unw_ghsa_ci95": [
+            -2.37,
+            29.95
+          ],
+          "gap_vs_unw_osv_pp": 18.42,
+          "gap_vs_unw_osv_ci95": [
+            10.82,
+            23.73
+          ],
+          "rec_ghsa_recent_2022_pct": 68.66,
+          "rec_osv_recent_2022_pct": 91.97,
+          "rec_ghsa_notop3_pct": 56.17,
+          "rec_osv_notop3_pct": 86.51,
+          "per_rel_add_no_med_iqr_p90": [
+            1.079,
+            0.0,
+            4.007,
+            12.142
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.185,
+            0.0,
+            2.333,
+            9.333
+          ],
+          "unavail_fresh_pct_full": 4.385,
+          "unavail_sync_pct_full": 0.018,
+          "unavail_fresh_day_pct_full": 0.3386,
+          "unavail_sync_day_pct_full": 0.0083,
+          "unavail_fresh_pct_act": 4.386,
+          "unavail_sync_pct_act": 0.018
+        },
+        "30": {
+          "k_days": 30,
+          "weighted_add_no_days_full": 2440968.1,
+          "weighted_add_ghsa_days_full": 846136.35,
+          "weighted_add_osv_days_full": 155266.19,
+          "weighted_add_zero_days_full": -16746.39,
+          "weighted_r0_days_full": 23479943.36,
+          "rec_ghsa_full_pct": 65.34,
+          "rec_ghsa_full_ci95": [
+            41.94,
+            75.44
+          ],
+          "rec_osv_full_pct": 93.64,
+          "rec_osv_full_ci95": [
+            85.52,
+            96.37
+          ],
+          "feed_gain_full_pp": 28.3,
+          "feed_gain_full_ci95": [
+            18.41,
+            47.65
+          ],
+          "rec_zero_full_pct": 100.69,
+          "rec_ghsa_act_pct": 64.35,
+          "rec_ghsa_act_ci95": [
+            39.54,
+            74.46
+          ],
+          "rec_osv_act_pct": 93.51,
+          "rec_osv_act_ci95": [
+            84.99,
+            96.3
+          ],
+          "feed_gain_act_pp": 29.17,
+          "feed_gain_act_ci95": [
+            18.93,
+            49.4
+          ],
+          "baseline_unw_ghsa_pct": 44.81,
+          "baseline_unw_osv_pct": 75.59,
+          "gap_vs_unw_ghsa_pp": 20.53,
+          "gap_vs_unw_ghsa_ci95": [
+            -2.67,
+            31.2
+          ],
+          "gap_vs_unw_osv_pp": 18.05,
+          "gap_vs_unw_osv_ci95": [
+            9.81,
+            22.67
+          ],
+          "rec_ghsa_recent_2022_pct": 78.33,
+          "rec_osv_recent_2022_pct": 95.02,
+          "rec_ghsa_notop3_pct": 59.76,
+          "rec_osv_notop3_pct": 87.86,
+          "per_rel_add_no_med_iqr_p90": [
+            2.05,
+            0.0,
+            7.837,
+            22.5
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.185,
+            0.0,
+            3.842,
+            17.779
+          ],
+          "unavail_fresh_pct_full": 8.462,
+          "unavail_sync_pct_full": 0.045,
+          "unavail_fresh_day_pct_full": 1.0128,
+          "unavail_sync_day_pct_full": 0.016,
+          "unavail_fresh_pct_act": 8.451,
+          "unavail_sync_pct_act": 0.045
+        }
+      },
+      "severity_k7": {
+        "CRITICAL": {
+          "n_adv": 108,
+          "rec_ghsa_7_pct": 3.24,
+          "rec_osv_7_pct": 74.72
+        },
+        "HIGH": {
+          "n_adv": 294,
+          "rec_ghsa_7_pct": 42.09,
+          "rec_osv_7_pct": 82.85
+        },
+        "MODERATE": {
+          "n_adv": 315,
+          "rec_ghsa_7_pct": 47.32,
+          "rec_osv_7_pct": 93.61
+        },
+        "LOW": {
+          "n_adv": 188,
+          "rec_ghsa_7_pct": 57.3,
+          "rec_osv_7_pct": 82.98
+        }
+      },
+      "depth2_summary": {
+        "sample_advisories": 50,
+        "unique_intermediates": 41303,
+        "direct_unique_intermediates": 49890,
+        "fanout_weighted_pkgs": 244876,
+        "d1_fix_admit_pct": 35.5,
+        "d2_fanout_weighted_admit_pct": 60.16,
+        "mean_rev_dep_fanout": 4.91,
+        "elapsed_sec": 6.0
+      },
+      "openness_k7_cells": {
+        "exact": {
+          "exposure_share_pct": 0.0,
+          "nat_rec_pct": 0.0,
+          "ghsa_rec_pct": 0.0,
+          "ghsa_loss_pp": 0.0
+        },
+        "patch": {
+          "exposure_share_pct": 41.44,
+          "nat_rec_pct": 88.28,
+          "ghsa_rec_pct": 44.89,
+          "ghsa_loss_pp": 43.39
+        },
+        "minor": {
+          "exposure_share_pct": 57.68,
+          "nat_rec_pct": 85.44,
+          "ghsa_rec_pct": 52.25,
+          "ghsa_loss_pp": 33.19
+        },
+        "wide": {
+          "exposure_share_pct": 0.87,
+          "nat_rec_pct": 85.94,
+          "ghsa_rec_pct": 41.19,
+          "ghsa_loss_pp": 44.74
+        }
+      }
+    },
+    "rubygems": {
+      "audit": {
+        "ecosystem": "rubygems",
+        "pkg_parts": 2228,
+        "ver_parts": 1352,
+        "dep_parts": 1946,
+        "packages_total": 202186,
+        "ghsa_fixed_raw": 1068,
+        "mal_records_raw": 936,
+        "versions_total": 1738917,
+        "versions_null_ts": 0,
+        "eligible_linked_advisories": 556,
+        "link_drops": {
+          "fix_outside_2018_2026": 269,
+          "fixed_ver_not_found": 233,
+          "pkg_not_in_eco": 7,
+          "empty_vuln_set": 3
+        },
+        "selected_advisories": 556,
+        "selected_unique_upstreams": 239,
+        "dependencies_total_rows": 11594529,
+        "matched_raw_dep_edges": 2079049,
+        "live_relations_total": 1046446,
+        "live_relations_dropped_bad_ts": 1032603,
+        "advisories_with_live_rels": 520,
+        "evaluated_unique_upstreams": 208,
+        "evaluated_relations_total": 1046446,
+        "unparseable_relations": 0,
+        "unparseable_pct": 0.0,
+        "openness_counts": {
+          "wide": 526662,
+          "patch": 140967,
+          "minor": 297079,
+          "exact": 81738
+        },
+        "elapsed_seconds": 110.4
+      },
+      "mal_summary": {
+        "counts": {
+          "matched_valid": 136,
+          "ver_unmatched": 17,
+          "unmatched_in_eco": 783,
+          "matched_live_2024": 91,
+          "matched_live_2025": 79
+        },
+        "n_valid_all": 136,
+        "n_valid_live_2024": 91,
+        "n_valid_live_2025": 79,
+        "n_valid_prev_legit": 0,
+        "n_valid_prev_legit_2024": 0,
+        "median_days_all": 0.005,
+        "p25_days_all": 0.004,
+        "p75_days_all": 120.407,
+        "p90_days_all": 798.739,
+        "median_days_live_2024": 0.004,
+        "p25_days_live_2024": 0.003,
+        "p75_days_live_2024": 0.005,
+        "p90_days_live_2024": 50.302,
+        "median_days_live_2025": 0.004,
+        "median_days_prev_legit": null,
+        "median_days_prev_legit_2024": null,
+        "blocking_all_pct": {
+          "0": 0.0,
+          "1": 61.765,
+          "3": 61.765,
+          "7": 61.765,
+          "14": 61.765,
+          "30": 63.971
+        },
+        "blocking_live_2024_pct": {
+          "0": 0.0,
+          "1": 81.319,
+          "3": 81.319,
+          "7": 81.319,
+          "14": 81.319,
+          "30": 84.615
+        },
+        "blocking_live_2025_pct": {
+          "0": 0.0,
+          "1": 89.873,
+          "3": 89.873,
+          "7": 89.873,
+          "14": 89.873,
+          "30": 93.671
+        },
+        "blocking_prev_legit_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_prev_legit_2024_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        }
+      },
+      "lag_summary": {
+        "ghsa_lag_days_p10_p25_med_p75_p90": [
+          0.04,
+          0.5,
+          4.77,
+          62.09,
+          358.07
+        ],
+        "osv_lag_days_p10_p25_med_p75_p90": [
+          0.04,
+          0.5,
+          4.77,
+          62.09,
+          358.07
+        ],
+        "ghsa_precedes_fix_pct": 6.15,
+        "osv_precedes_fix_pct": 6.15,
+        "vendor_lag_gt0_pct": 0.0,
+        "vendor_lag_gt7d_pct": 0.0,
+        "vendor_lag_med_days_pos": 0.0
+      },
+      "top3_hubs": [
+        "nokogiri",
+        "rack",
+        "activesupport"
+      ],
+      "top3_hub_share_pct": 72.15,
+      "gates": {
+        "0": {
+          "k_days": 0,
+          "weighted_add_no_days_full": 0.0,
+          "weighted_add_ghsa_days_full": 0.0,
+          "weighted_add_osv_days_full": 0.0,
+          "weighted_add_zero_days_full": 0.0,
+          "weighted_r0_days_full": 91972926.62,
+          "rec_ghsa_full_pct": 0.0,
+          "rec_ghsa_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_full_pct": 0.0,
+          "rec_osv_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 0.0,
+          "rec_ghsa_act_pct": 0.0,
+          "rec_ghsa_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_act_pct": 0.0,
+          "rec_osv_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 0.0,
+          "baseline_unw_osv_pct": 0.0,
+          "gap_vs_unw_ghsa_pp": 0.0,
+          "gap_vs_unw_ghsa_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_vs_unw_osv_pp": 0.0,
+          "gap_vs_unw_osv_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_ghsa_recent_2022_pct": 0.0,
+          "rec_osv_recent_2022_pct": 0.0,
+          "rec_ghsa_notop3_pct": 0.0,
+          "rec_osv_notop3_pct": 0.0,
+          "per_rel_add_no_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "unavail_fresh_pct_full": 0.0,
+          "unavail_sync_pct_full": 0.0,
+          "unavail_fresh_day_pct_full": 0.0,
+          "unavail_sync_day_pct_full": 0.0,
+          "unavail_fresh_pct_act": 0.0,
+          "unavail_sync_pct_act": 0.0
+        },
+        "1": {
+          "k_days": 1,
+          "weighted_add_no_days_full": 360296.89,
+          "weighted_add_ghsa_days_full": 233987.32,
+          "weighted_add_osv_days_full": 233987.32,
+          "weighted_add_zero_days_full": -897.43,
+          "weighted_r0_days_full": 91972926.62,
+          "rec_ghsa_full_pct": 35.06,
+          "rec_ghsa_full_ci95": [
+            19.73,
+            41.22
+          ],
+          "rec_osv_full_pct": 35.06,
+          "rec_osv_full_ci95": [
+            19.73,
+            41.22
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.25,
+          "rec_ghsa_act_pct": 34.84,
+          "rec_ghsa_act_ci95": [
+            19.28,
+            41.22
+          ],
+          "rec_osv_act_pct": 34.84,
+          "rec_osv_act_ci95": [
+            19.28,
+            41.22
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 24.54,
+          "baseline_unw_osv_pct": 24.54,
+          "gap_vs_unw_ghsa_pp": 10.51,
+          "gap_vs_unw_ghsa_ci95": [
+            -3.14,
+            17.05
+          ],
+          "gap_vs_unw_osv_pp": 10.51,
+          "gap_vs_unw_osv_ci95": [
+            -3.14,
+            17.05
+          ],
+          "rec_ghsa_recent_2022_pct": 44.56,
+          "rec_osv_recent_2022_pct": 44.56,
+          "rec_ghsa_notop3_pct": 34.77,
+          "rec_osv_notop3_pct": 34.77,
+          "per_rel_add_no_med_iqr_p90": [
+            0.231,
+            0.109,
+            0.446,
+            0.775
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.134,
+            0.028,
+            0.334,
+            0.565
+          ],
+          "unavail_fresh_pct_full": 2.801,
+          "unavail_sync_pct_full": 0.151,
+          "unavail_fresh_day_pct_full": 0.0066,
+          "unavail_sync_day_pct_full": 0.0008,
+          "unavail_fresh_pct_act": 2.85,
+          "unavail_sync_pct_act": 0.155
+        },
+        "3": {
+          "k_days": 3,
+          "weighted_add_no_days_full": 1081000.97,
+          "weighted_add_ghsa_days_full": 563650.7,
+          "weighted_add_osv_days_full": 563650.7,
+          "weighted_add_zero_days_full": -2693.49,
+          "weighted_r0_days_full": 91972926.62,
+          "rec_ghsa_full_pct": 47.86,
+          "rec_ghsa_full_ci95": [
+            40.58,
+            52.94
+          ],
+          "rec_osv_full_pct": 47.86,
+          "rec_osv_full_ci95": [
+            40.58,
+            52.94
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.25,
+          "rec_ghsa_act_pct": 47.72,
+          "rec_ghsa_act_ci95": [
+            40.52,
+            52.9
+          ],
+          "rec_osv_act_pct": 47.72,
+          "rec_osv_act_ci95": [
+            40.52,
+            52.9
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 35.14,
+          "baseline_unw_osv_pct": 35.14,
+          "gap_vs_unw_ghsa_pp": 12.71,
+          "gap_vs_unw_ghsa_ci95": [
+            6.3,
+            19.02
+          ],
+          "gap_vs_unw_osv_pp": 12.71,
+          "gap_vs_unw_osv_ci95": [
+            6.3,
+            19.02
+          ],
+          "rec_ghsa_recent_2022_pct": 64.18,
+          "rec_osv_recent_2022_pct": 64.18,
+          "rec_ghsa_notop3_pct": 46.37,
+          "rec_osv_notop3_pct": 46.37,
+          "per_rel_add_no_med_iqr_p90": [
+            0.692,
+            0.326,
+            1.34,
+            2.325
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.293,
+            0.04,
+            0.757,
+            1.47
+          ],
+          "unavail_fresh_pct_full": 2.996,
+          "unavail_sync_pct_full": 0.187,
+          "unavail_fresh_day_pct_full": 0.0173,
+          "unavail_sync_day_pct_full": 0.0022,
+          "unavail_fresh_pct_act": 3.044,
+          "unavail_sync_pct_act": 0.191
+        },
+        "7": {
+          "k_days": 7,
+          "weighted_add_no_days_full": 2522828.41,
+          "weighted_add_ghsa_days_full": 1109367.22,
+          "weighted_add_osv_days_full": 1109367.22,
+          "weighted_add_zero_days_full": -6272.2,
+          "weighted_r0_days_full": 91972926.62,
+          "rec_ghsa_full_pct": 56.03,
+          "rec_ghsa_full_ci95": [
+            51.65,
+            63.35
+          ],
+          "rec_osv_full_pct": 56.03,
+          "rec_osv_full_ci95": [
+            51.65,
+            63.35
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.25,
+          "rec_ghsa_act_pct": 55.93,
+          "rec_ghsa_act_ci95": [
+            51.36,
+            63.53
+          ],
+          "rec_osv_act_pct": 55.93,
+          "rec_osv_act_ci95": [
+            51.36,
+            63.53
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 43.76,
+          "baseline_unw_osv_pct": 43.76,
+          "gap_vs_unw_ghsa_pp": 12.26,
+          "gap_vs_unw_ghsa_ci95": [
+            5.97,
+            21.26
+          ],
+          "gap_vs_unw_osv_pp": 12.26,
+          "gap_vs_unw_osv_ci95": [
+            5.97,
+            21.26
+          ],
+          "rec_ghsa_recent_2022_pct": 74.97,
+          "rec_osv_recent_2022_pct": 74.97,
+          "rec_ghsa_notop3_pct": 56.28,
+          "rec_osv_notop3_pct": 56.28,
+          "per_rel_add_no_med_iqr_p90": [
+            1.615,
+            0.747,
+            3.127,
+            5.428
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.468,
+            0.042,
+            1.564,
+            3.167
+          ],
+          "unavail_fresh_pct_full": 3.381,
+          "unavail_sync_pct_full": 0.238,
+          "unavail_fresh_day_pct_full": 0.0367,
+          "unavail_sync_day_pct_full": 0.0048,
+          "unavail_fresh_pct_act": 3.425,
+          "unavail_sync_pct_act": 0.243,
+          "unavail_fresh_pct_full_ci95": [
+            1.451,
+            7.351
+          ],
+          "rec_osv_eod_full_pct": 56.03,
+          "rec_osv_eod_full_ci95": [
+            51.65,
+            63.35
+          ],
+          "feed_gain_eod_full_pp": 0.0,
+          "feed_gain_eod_full_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "14": {
+          "k_days": 14,
+          "weighted_add_no_days_full": 5047022.17,
+          "weighted_add_ghsa_days_full": 1808998.37,
+          "weighted_add_osv_days_full": 1808998.37,
+          "weighted_add_zero_days_full": -12542.63,
+          "weighted_r0_days_full": 91972926.62,
+          "rec_ghsa_full_pct": 64.16,
+          "rec_ghsa_full_ci95": [
+            57.1,
+            76.2
+          ],
+          "rec_osv_full_pct": 64.16,
+          "rec_osv_full_ci95": [
+            57.1,
+            76.2
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.25,
+          "rec_ghsa_act_pct": 64.11,
+          "rec_ghsa_act_ci95": [
+            57.06,
+            76.16
+          ],
+          "rec_osv_act_pct": 64.11,
+          "rec_osv_act_ci95": [
+            57.06,
+            76.16
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 51.57,
+          "baseline_unw_osv_pct": 51.57,
+          "gap_vs_unw_ghsa_pp": 12.59,
+          "gap_vs_unw_ghsa_ci95": [
+            4.74,
+            25.97
+          ],
+          "gap_vs_unw_osv_pp": 12.59,
+          "gap_vs_unw_osv_ci95": [
+            4.74,
+            25.97
+          ],
+          "rec_ghsa_recent_2022_pct": 82.74,
+          "rec_osv_recent_2022_pct": 82.74,
+          "rec_ghsa_notop3_pct": 66.7,
+          "rec_osv_notop3_pct": 66.7,
+          "per_rel_add_no_med_iqr_p90": [
+            3.141,
+            1.494,
+            6.149,
+            10.869
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.645,
+            0.042,
+            2.333,
+            6.076
+          ],
+          "unavail_fresh_pct_full": 4.078,
+          "unavail_sync_pct_full": 0.288,
+          "unavail_fresh_day_pct_full": 0.0675,
+          "unavail_sync_day_pct_full": 0.0087,
+          "unavail_fresh_pct_act": 4.119,
+          "unavail_sync_pct_act": 0.289
+        },
+        "30": {
+          "k_days": 30,
+          "weighted_add_no_days_full": 10795109.5,
+          "weighted_add_ghsa_days_full": 3027398.64,
+          "weighted_add_osv_days_full": 3027398.64,
+          "weighted_add_zero_days_full": -27009.29,
+          "weighted_r0_days_full": 91972926.62,
+          "rec_ghsa_full_pct": 71.96,
+          "rec_ghsa_full_ci95": [
+            63.95,
+            86.01
+          ],
+          "rec_osv_full_pct": 71.96,
+          "rec_osv_full_ci95": [
+            63.95,
+            86.01
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 100.25,
+          "rec_ghsa_act_pct": 71.93,
+          "rec_ghsa_act_ci95": [
+            63.85,
+            85.84
+          ],
+          "rec_osv_act_pct": 71.93,
+          "rec_osv_act_ci95": [
+            63.85,
+            85.84
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 58.94,
+          "baseline_unw_osv_pct": 58.94,
+          "gap_vs_unw_ghsa_pp": 13.01,
+          "gap_vs_unw_ghsa_ci95": [
+            4.12,
+            28.48
+          ],
+          "gap_vs_unw_osv_pp": 13.01,
+          "gap_vs_unw_osv_ci95": [
+            4.12,
+            28.48
+          ],
+          "rec_ghsa_recent_2022_pct": 89.55,
+          "rec_osv_recent_2022_pct": 89.55,
+          "rec_ghsa_notop3_pct": 74.86,
+          "rec_osv_notop3_pct": 74.86,
+          "per_rel_add_no_med_iqr_p90": [
+            6.582,
+            3.0,
+            13.071,
+            23.285
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.679,
+            0.038,
+            3.727,
+            12.581
+          ],
+          "unavail_fresh_pct_full": 5.743,
+          "unavail_sync_pct_full": 0.38,
+          "unavail_fresh_day_pct_full": 0.1432,
+          "unavail_sync_day_pct_full": 0.0161,
+          "unavail_fresh_pct_act": 5.773,
+          "unavail_sync_pct_act": 0.371
+        }
+      },
+      "severity_k7": {
+        "CRITICAL": {
+          "n_adv": 67,
+          "rec_ghsa_7_pct": 40.66,
+          "rec_osv_7_pct": 40.66
+        },
+        "HIGH": {
+          "n_adv": 190,
+          "rec_ghsa_7_pct": 47.56,
+          "rec_osv_7_pct": 47.56
+        },
+        "MODERATE": {
+          "n_adv": 227,
+          "rec_ghsa_7_pct": 63.18,
+          "rec_osv_7_pct": 63.18
+        },
+        "LOW": {
+          "n_adv": 36,
+          "rec_ghsa_7_pct": 78.86,
+          "rec_osv_7_pct": 78.86
+        }
+      },
+      "depth2_summary": {
+        "sample_advisories": 50,
+        "unique_intermediates": 18477,
+        "direct_unique_intermediates": 41556,
+        "fanout_weighted_pkgs": 180927,
+        "d1_fix_admit_pct": 76.34,
+        "d2_fanout_weighted_admit_pct": 62.66,
+        "mean_rev_dep_fanout": 4.35,
+        "elapsed_sec": 3.3
+      },
+      "openness_k7_cells": {
+        "exact": {
+          "exposure_share_pct": 0.0,
+          "nat_rec_pct": 0.0,
+          "ghsa_rec_pct": 0.0,
+          "ghsa_loss_pp": 0.0
+        },
+        "patch": {
+          "exposure_share_pct": 0.88,
+          "nat_rec_pct": 51.55,
+          "ghsa_rec_pct": 51.55,
+          "ghsa_loss_pp": 0.0
+        },
+        "minor": {
+          "exposure_share_pct": 22.68,
+          "nat_rec_pct": 54.01,
+          "ghsa_rec_pct": 54.01,
+          "ghsa_loss_pp": 0.0
+        },
+        "wide": {
+          "exposure_share_pct": 76.44,
+          "nat_rec_pct": 56.68,
+          "ghsa_rec_pct": 56.68,
+          "ghsa_loss_pp": 0.0
+        }
+      }
+    },
+    "packagist": {
+      "audit": {
+        "ecosystem": "packagist",
+        "pkg_parts": 2229,
+        "ver_parts": 1352,
+        "dep_parts": 1975,
+        "packages_total": 481047,
+        "ghsa_fixed_raw": 6185,
+        "mal_records_raw": 0,
+        "versions_total": 4609765,
+        "versions_null_ts": 6166,
+        "eligible_linked_advisories": 3508,
+        "link_drops": {
+          "fix_outside_2018_2026": 680,
+          "fixed_ver_not_found": 1825,
+          "pkg_not_in_eco": 117,
+          "empty_vuln_set": 55
+        },
+        "selected_advisories": 3508,
+        "selected_unique_upstreams": 627,
+        "dependencies_total_rows": 19506112,
+        "matched_raw_dep_edges": 3419123,
+        "live_relations_total": 3416339,
+        "live_relations_dropped_bad_ts": 2784,
+        "advisories_with_live_rels": 2364,
+        "evaluated_unique_upstreams": 460,
+        "evaluated_relations_total": 3403045,
+        "unparseable_relations": 13294,
+        "unparseable_pct": 0.3891,
+        "openness_counts": {
+          "wide": 951300,
+          "patch": 364381,
+          "minor": 1978341,
+          "exact": 109023
+        },
+        "elapsed_seconds": 500.1
+      },
+      "mal_summary": {
+        "counts": {},
+        "n_valid_all": 0,
+        "n_valid_live_2024": 0,
+        "n_valid_live_2025": 0,
+        "n_valid_prev_legit": 0,
+        "n_valid_prev_legit_2024": 0,
+        "median_days_all": null,
+        "p25_days_all": null,
+        "p75_days_all": null,
+        "p90_days_all": null,
+        "median_days_live_2024": null,
+        "p25_days_live_2024": null,
+        "p75_days_live_2024": null,
+        "p90_days_live_2024": null,
+        "median_days_live_2025": null,
+        "median_days_prev_legit": null,
+        "median_days_prev_legit_2024": null,
+        "blocking_all_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_live_2024_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_live_2025_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_prev_legit_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        },
+        "blocking_prev_legit_2024_pct": {
+          "0": null,
+          "1": null,
+          "3": null,
+          "7": null,
+          "14": null,
+          "30": null
+        }
+      },
+      "lag_summary": {
+        "ghsa_lag_days_p10_p25_med_p75_p90": [
+          0.28,
+          1.25,
+          12.68,
+          381.7,
+          1391.7
+        ],
+        "osv_lag_days_p10_p25_med_p75_p90": [
+          0.22,
+          0.98,
+          9.13,
+          266.87,
+          1359.76
+        ],
+        "ghsa_precedes_fix_pct": 4.61,
+        "osv_precedes_fix_pct": 5.46,
+        "vendor_lag_gt0_pct": 4.02,
+        "vendor_lag_gt7d_pct": 3.68,
+        "vendor_lag_med_days_pos": 296.34
+      },
+      "top3_hubs": [
+        "typo3/cms-core",
+        "guzzlehttp/guzzle",
+        "laravel/framework"
+      ],
+      "top3_hub_share_pct": 39.56,
+      "gates": {
+        "0": {
+          "k_days": 0,
+          "weighted_add_no_days_full": 0.0,
+          "weighted_add_ghsa_days_full": 0.0,
+          "weighted_add_osv_days_full": 0.0,
+          "weighted_add_zero_days_full": 0.0,
+          "weighted_r0_days_full": 142251761.73,
+          "rec_ghsa_full_pct": 0.0,
+          "rec_ghsa_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_full_pct": 0.0,
+          "rec_osv_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_full_pp": 0.0,
+          "feed_gain_full_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_zero_full_pct": 0.0,
+          "rec_ghsa_act_pct": 0.0,
+          "rec_ghsa_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_osv_act_pct": 0.0,
+          "rec_osv_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "feed_gain_act_pp": 0.0,
+          "feed_gain_act_ci95": [
+            0.0,
+            0.0
+          ],
+          "baseline_unw_ghsa_pct": 0.0,
+          "baseline_unw_osv_pct": 0.0,
+          "gap_vs_unw_ghsa_pp": 0.0,
+          "gap_vs_unw_ghsa_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_vs_unw_osv_pp": 0.0,
+          "gap_vs_unw_osv_ci95": [
+            0.0,
+            0.0
+          ],
+          "rec_ghsa_recent_2022_pct": 0.0,
+          "rec_osv_recent_2022_pct": 0.0,
+          "rec_ghsa_notop3_pct": 0.0,
+          "rec_osv_notop3_pct": 0.0,
+          "per_rel_add_no_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "unavail_fresh_pct_full": 0.0,
+          "unavail_sync_pct_full": 0.0,
+          "unavail_fresh_day_pct_full": 0.0,
+          "unavail_sync_day_pct_full": 0.0,
+          "unavail_fresh_pct_act": 0.0,
+          "unavail_sync_pct_act": 0.0
+        },
+        "1": {
+          "k_days": 1,
+          "weighted_add_no_days_full": 767882.86,
+          "weighted_add_ghsa_days_full": 583089.12,
+          "weighted_add_osv_days_full": 566462.06,
+          "weighted_add_zero_days_full": 824.18,
+          "weighted_r0_days_full": 142251761.73,
+          "rec_ghsa_full_pct": 24.07,
+          "rec_ghsa_full_ci95": [
+            13.68,
+            34.77
+          ],
+          "rec_osv_full_pct": 26.23,
+          "rec_osv_full_ci95": [
+            15.74,
+            37.16
+          ],
+          "feed_gain_full_pp": 2.17,
+          "feed_gain_full_ci95": [
+            0.0,
+            7.22
+          ],
+          "rec_zero_full_pct": 99.89,
+          "rec_ghsa_act_pct": 23.91,
+          "rec_ghsa_act_ci95": [
+            14.07,
+            33.88
+          ],
+          "rec_osv_act_pct": 26.1,
+          "rec_osv_act_ci95": [
+            15.85,
+            36.64
+          ],
+          "feed_gain_act_pp": 2.2,
+          "feed_gain_act_ci95": [
+            0.0,
+            7.29
+          ],
+          "baseline_unw_ghsa_pct": 14.94,
+          "baseline_unw_osv_pct": 17.49,
+          "gap_vs_unw_ghsa_pp": 9.13,
+          "gap_vs_unw_ghsa_ci95": [
+            -1.72,
+            19.65
+          ],
+          "gap_vs_unw_osv_pp": 8.75,
+          "gap_vs_unw_osv_ci95": [
+            -2.0,
+            19.46
+          ],
+          "rec_ghsa_recent_2022_pct": 37.67,
+          "rec_osv_recent_2022_pct": 40.16,
+          "rec_ghsa_notop3_pct": 18.7,
+          "rec_osv_notop3_pct": 22.28,
+          "per_rel_add_no_med_iqr_p90": [
+            0.169,
+            0.077,
+            0.378,
+            1.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.128,
+            0.053,
+            0.333,
+            0.868
+          ],
+          "unavail_fresh_pct_full": 0.795,
+          "unavail_sync_pct_full": 0.084,
+          "unavail_fresh_day_pct_full": 0.0069,
+          "unavail_sync_day_pct_full": 0.0026,
+          "unavail_fresh_pct_act": 0.802,
+          "unavail_sync_pct_act": 0.085
+        },
+        "3": {
+          "k_days": 3,
+          "weighted_add_no_days_full": 2303358.32,
+          "weighted_add_ghsa_days_full": 1437095.9,
+          "weighted_add_osv_days_full": 1375767.94,
+          "weighted_add_zero_days_full": -277.24,
+          "weighted_r0_days_full": 142251761.73,
+          "rec_ghsa_full_pct": 37.61,
+          "rec_ghsa_full_ci95": [
+            24.02,
+            51.93
+          ],
+          "rec_osv_full_pct": 40.27,
+          "rec_osv_full_ci95": [
+            26.44,
+            54.81
+          ],
+          "feed_gain_full_pp": 2.66,
+          "feed_gain_full_ci95": [
+            0.06,
+            8.98
+          ],
+          "rec_zero_full_pct": 100.01,
+          "rec_ghsa_act_pct": 37.35,
+          "rec_ghsa_act_ci95": [
+            24.25,
+            51.27
+          ],
+          "rec_osv_act_pct": 40.06,
+          "rec_osv_act_ci95": [
+            27.24,
+            54.18
+          ],
+          "feed_gain_act_pp": 2.71,
+          "feed_gain_act_ci95": [
+            0.06,
+            9.39
+          ],
+          "baseline_unw_ghsa_pct": 24.97,
+          "baseline_unw_osv_pct": 28.32,
+          "gap_vs_unw_ghsa_pp": 12.63,
+          "gap_vs_unw_ghsa_ci95": [
+            -1.34,
+            27.91
+          ],
+          "gap_vs_unw_osv_pp": 11.95,
+          "gap_vs_unw_osv_ci95": [
+            -1.77,
+            27.27
+          ],
+          "rec_ghsa_recent_2022_pct": 55.63,
+          "rec_osv_recent_2022_pct": 58.5,
+          "rec_ghsa_notop3_pct": 29.95,
+          "rec_osv_notop3_pct": 34.35,
+          "per_rel_add_no_med_iqr_p90": [
+            0.505,
+            0.231,
+            1.128,
+            3.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.305,
+            0.096,
+            0.857,
+            2.0
+          ],
+          "unavail_fresh_pct_full": 1.056,
+          "unavail_sync_pct_full": 0.125,
+          "unavail_fresh_day_pct_full": 0.0226,
+          "unavail_sync_day_pct_full": 0.0072,
+          "unavail_fresh_pct_act": 1.063,
+          "unavail_sync_pct_act": 0.127
+        },
+        "7": {
+          "k_days": 7,
+          "weighted_add_no_days_full": 5366564.79,
+          "weighted_add_ghsa_days_full": 2927263.29,
+          "weighted_add_osv_days_full": 2788412.65,
+          "weighted_add_zero_days_full": 1348.68,
+          "weighted_r0_days_full": 142251761.73,
+          "rec_ghsa_full_pct": 45.45,
+          "rec_ghsa_full_ci95": [
+            30.17,
+            60.14
+          ],
+          "rec_osv_full_pct": 48.04,
+          "rec_osv_full_ci95": [
+            33.24,
+            62.79
+          ],
+          "feed_gain_full_pp": 2.59,
+          "feed_gain_full_ci95": [
+            0.06,
+            9.17
+          ],
+          "rec_zero_full_pct": 99.97,
+          "rec_ghsa_act_pct": 45.28,
+          "rec_ghsa_act_ci95": [
+            29.82,
+            59.16
+          ],
+          "rec_osv_act_pct": 47.92,
+          "rec_osv_act_ci95": [
+            33.37,
+            62.05
+          ],
+          "feed_gain_act_pp": 2.64,
+          "feed_gain_act_ci95": [
+            0.06,
+            9.44
+          ],
+          "baseline_unw_ghsa_pct": 32.48,
+          "baseline_unw_osv_pct": 36.04,
+          "gap_vs_unw_ghsa_pp": 12.98,
+          "gap_vs_unw_ghsa_ci95": [
+            -2.55,
+            28.47
+          ],
+          "gap_vs_unw_osv_pp": 12.0,
+          "gap_vs_unw_osv_ci95": [
+            -3.07,
+            27.84
+          ],
+          "rec_ghsa_recent_2022_pct": 65.8,
+          "rec_osv_recent_2022_pct": 68.39,
+          "rec_ghsa_notop3_pct": 36.45,
+          "rec_osv_notop3_pct": 40.73,
+          "per_rel_add_no_med_iqr_p90": [
+            1.17,
+            0.542,
+            2.634,
+            7.0
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.568,
+            0.111,
+            1.757,
+            4.667
+          ],
+          "unavail_fresh_pct_full": 1.504,
+          "unavail_sync_pct_full": 0.208,
+          "unavail_fresh_day_pct_full": 0.0583,
+          "unavail_sync_day_pct_full": 0.0151,
+          "unavail_fresh_pct_act": 1.51,
+          "unavail_sync_pct_act": 0.21,
+          "unavail_fresh_pct_full_ci95": [
+            0.993,
+            2.286
+          ],
+          "rec_osv_eod_full_pct": 48.04,
+          "rec_osv_eod_full_ci95": [
+            33.24,
+            62.79
+          ],
+          "feed_gain_eod_full_pp": 2.59,
+          "feed_gain_eod_full_ci95": [
+            0.06,
+            9.17
+          ]
+        },
+        "14": {
+          "k_days": 14,
+          "weighted_add_no_days_full": 10776668.03,
+          "weighted_add_ghsa_days_full": 5122940.84,
+          "weighted_add_osv_days_full": 4872804.41,
+          "weighted_add_zero_days_full": 1119.13,
+          "weighted_r0_days_full": 142251761.73,
+          "rec_ghsa_full_pct": 52.46,
+          "rec_ghsa_full_ci95": [
+            37.03,
+            66.79
+          ],
+          "rec_osv_full_pct": 54.78,
+          "rec_osv_full_ci95": [
+            39.61,
+            69.12
+          ],
+          "feed_gain_full_pp": 2.32,
+          "feed_gain_full_ci95": [
+            0.05,
+            8.73
+          ],
+          "rec_zero_full_pct": 99.99,
+          "rec_ghsa_act_pct": 52.36,
+          "rec_ghsa_act_ci95": [
+            36.76,
+            66.05
+          ],
+          "rec_osv_act_pct": 54.73,
+          "rec_osv_act_ci95": [
+            39.63,
+            67.84
+          ],
+          "feed_gain_act_pp": 2.37,
+          "feed_gain_act_ci95": [
+            0.04,
+            8.73
+          ],
+          "baseline_unw_ghsa_pct": 39.9,
+          "baseline_unw_osv_pct": 43.46,
+          "gap_vs_unw_ghsa_pp": 12.56,
+          "gap_vs_unw_ghsa_ci95": [
+            -3.55,
+            27.67
+          ],
+          "gap_vs_unw_osv_pp": 11.32,
+          "gap_vs_unw_osv_ci95": [
+            -4.52,
+            26.66
+          ],
+          "rec_ghsa_recent_2022_pct": 73.17,
+          "rec_osv_recent_2022_pct": 75.26,
+          "rec_ghsa_notop3_pct": 43.3,
+          "rec_osv_notop3_pct": 47.13,
+          "per_rel_add_no_med_iqr_p90": [
+            2.321,
+            1.094,
+            5.25,
+            13.992
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            0.873,
+            0.113,
+            2.869,
+            8.434
+          ],
+          "unavail_fresh_pct_full": 2.269,
+          "unavail_sync_pct_full": 0.306,
+          "unavail_fresh_day_pct_full": 0.1306,
+          "unavail_sync_day_pct_full": 0.0268,
+          "unavail_fresh_pct_act": 2.273,
+          "unavail_sync_pct_act": 0.31
+        },
+        "30": {
+          "k_days": 30,
+          "weighted_add_no_days_full": 23253934.78,
+          "weighted_add_ghsa_days_full": 9615523.55,
+          "weighted_add_osv_days_full": 9158710.77,
+          "weighted_add_zero_days_full": -2445.34,
+          "weighted_r0_days_full": 142251761.73,
+          "rec_ghsa_full_pct": 58.65,
+          "rec_ghsa_full_ci95": [
+            43.61,
+            71.52
+          ],
+          "rec_osv_full_pct": 60.61,
+          "rec_osv_full_ci95": [
+            45.75,
+            73.24
+          ],
+          "feed_gain_full_pp": 1.96,
+          "feed_gain_full_ci95": [
+            0.03,
+            7.14
+          ],
+          "rec_zero_full_pct": 100.01,
+          "rec_ghsa_act_pct": 58.55,
+          "rec_ghsa_act_ci95": [
+            43.29,
+            71.26
+          ],
+          "rec_osv_act_pct": 60.57,
+          "rec_osv_act_ci95": [
+            45.54,
+            73.47
+          ],
+          "feed_gain_act_pp": 2.02,
+          "feed_gain_act_ci95": [
+            0.03,
+            7.66
+          ],
+          "baseline_unw_ghsa_pct": 48.5,
+          "baseline_unw_osv_pct": 51.74,
+          "gap_vs_unw_ghsa_pp": 10.15,
+          "gap_vs_unw_ghsa_ci95": [
+            -5.04,
+            23.96
+          ],
+          "gap_vs_unw_osv_pp": 8.87,
+          "gap_vs_unw_osv_ci95": [
+            -5.87,
+            22.66
+          ],
+          "rec_ghsa_recent_2022_pct": 79.25,
+          "rec_osv_recent_2022_pct": 80.73,
+          "rec_ghsa_notop3_pct": 50.7,
+          "rec_osv_notop3_pct": 53.93,
+          "per_rel_add_no_med_iqr_p90": [
+            5.0,
+            2.307,
+            11.25,
+            29.043
+          ],
+          "per_rel_add_ghsa_med_iqr_p90": [
+            1.207,
+            0.112,
+            4.587,
+            15.0
+          ],
+          "unavail_fresh_pct_full": 3.938,
+          "unavail_sync_pct_full": 0.465,
+          "unavail_fresh_day_pct_full": 0.3265,
+          "unavail_sync_day_pct_full": 0.0482,
+          "unavail_fresh_pct_act": 3.937,
+          "unavail_sync_pct_act": 0.473
+        }
+      },
+      "severity_k7": {
+        "CRITICAL": {
+          "n_adv": 240,
+          "rec_ghsa_7_pct": 9.72,
+          "rec_osv_7_pct": 13.18
+        },
+        "HIGH": {
+          "n_adv": 664,
+          "rec_ghsa_7_pct": 50.16,
+          "rec_osv_7_pct": 51.87
+        },
+        "MODERATE": {
+          "n_adv": 1299,
+          "rec_ghsa_7_pct": 44.03,
+          "rec_osv_7_pct": 46.83
+        },
+        "LOW": {
+          "n_adv": 161,
+          "rec_ghsa_7_pct": 61.91,
+          "rec_osv_7_pct": 67.37
+        }
+      },
+      "depth2_summary": {
+        "sample_advisories": 50,
+        "unique_intermediates": 27108,
+        "direct_unique_intermediates": 39010,
+        "fanout_weighted_pkgs": 233099,
+        "d1_fix_admit_pct": 43.26,
+        "d2_fanout_weighted_admit_pct": 12.52,
+        "mean_rev_dep_fanout": 5.98,
+        "elapsed_sec": 9.6
+      },
+      "openness_k7_cells": {
+        "exact": {
+          "exposure_share_pct": 0.0,
+          "nat_rec_pct": 0.0,
+          "ghsa_rec_pct": 0.0,
+          "ghsa_loss_pp": 0.0
+        },
+        "patch": {
+          "exposure_share_pct": 3.29,
+          "nat_rec_pct": 24.86,
+          "ghsa_rec_pct": 22.4,
+          "ghsa_loss_pp": 2.45
+        },
+        "minor": {
+          "exposure_share_pct": 54.3,
+          "nat_rec_pct": 50.7,
+          "ghsa_rec_pct": 48.38,
+          "ghsa_loss_pp": 2.32
+        },
+        "wide": {
+          "exposure_share_pct": 42.42,
+          "nat_rec_pct": 46.43,
+          "ghsa_rec_pct": 43.5,
+          "ghsa_loss_pp": 2.93
+        }
+      }
+    }
+  },
+  "shapley_pooled_ref": {
+    "npm": {
+      "phi_S": -11.686,
+      "phi_G": 8.624,
+      "phi_C": 4.695,
+      "total_gap": 1.633,
+      "reference_val": 51.5754,
+      "target_val": 53.2084,
+      "interact_SG": -0.02,
+      "interact_SC": 9.2743,
+      "interact_GC": -1.2766,
+      "additivity_err": 0.0
+    },
+    "pypi": {
+      "phi_S": 0.4854,
+      "phi_G": 3.9228,
+      "phi_C": -1.8973,
+      "total_gap": 2.5109,
+      "reference_val": 51.5754,
+      "target_val": 54.0863,
+      "interact_SG": -0.0171,
+      "interact_SC": 5.6778,
+      "interact_GC": 0.4487,
+      "additivity_err": 0.0
+    },
+    "cargo": {
+      "phi_S": 27.0404,
+      "phi_G": -28.6421,
+      "phi_C": -0.8694,
+      "total_gap": -2.4711,
+      "reference_val": 51.5754,
+      "target_val": 49.1043,
+      "interact_SG": -0.1817,
+      "interact_SC": 5.0334,
+      "interact_GC": 2.9351,
+      "additivity_err": 0.0
+    },
+    "rubygems": {
+      "phi_S": -3.755,
+      "phi_G": 9.7297,
+      "phi_C": -1.524,
+      "total_gap": 4.4507,
+      "reference_val": 51.5754,
+      "target_val": 56.0261,
+      "interact_SG": 0.0,
+      "interact_SC": 4.4915,
+      "interact_GC": 0.8889,
+      "additivity_err": 0.0
+    },
+    "packagist": {
+      "phi_S": -12.0849,
+      "phi_G": 6.3656,
+      "phi_C": -0.4043,
+      "total_gap": -6.1235,
+      "reference_val": 51.5754,
+      "target_val": 45.4519,
+      "interact_SG": -1.5366,
+      "interact_SC": 2.513,
+      "interact_GC": -0.0655,
+      "additivity_err": 0.0
+    }
+  },
+  "shapley_npm_ref": {
+    "npm": {
+      "phi_S": 0.0,
+      "phi_G": 0.0,
+      "phi_C": 0.0,
+      "total_gap": 0.0,
+      "reference_val": 53.2084,
+      "target_val": 53.2084,
+      "additivity_err": 0.0,
+      "interact_SG": 0.0,
+      "interact_SC": 0.0,
+      "interact_GC": 0.0
+    },
+    "pypi": {
+      "phi_S": 14.9947,
+      "phi_G": -5.076,
+      "phi_C": -9.0408,
+      "total_gap": 0.8779,
+      "reference_val": 53.2084,
+      "target_val": 54.0863,
+      "additivity_err": 0.0,
+      "interact_SG": -0.0,
+      "interact_SC": 18.249,
+      "interact_GC": -2.4862
+    },
+    "cargo": {
+      "phi_S": 34.3395,
+      "phi_G": -35.5778,
+      "phi_C": -2.8658,
+      "total_gap": -4.1041,
+      "reference_val": 53.2084,
+      "target_val": 49.1043,
+      "additivity_err": 0.0,
+      "interact_SG": -0.2947,
+      "interact_SC": 4.1388,
+      "interact_GC": -3.8491
+    },
+    "rubygems": {
+      "phi_S": 9.346,
+      "phi_G": 0.0,
+      "phi_C": -6.5283,
+      "total_gap": 2.8177,
+      "reference_val": 53.2084,
+      "target_val": 56.0261,
+      "additivity_err": 0.0,
+      "interact_SG": 0.0,
+      "interact_SC": 17.1391,
+      "interact_GC": 0.0
+    },
+    "packagist": {
+      "phi_S": -0.2504,
+      "phi_G": -2.4661,
+      "phi_C": -5.04,
+      "total_gap": -7.7565,
+      "reference_val": 53.2084,
+      "target_val": 45.4519,
+      "additivity_err": 0.0,
+      "interact_SG": -0.0,
+      "interact_SC": 6.6499,
+      "interact_GC": -0.2423
+    }
+  },
+  "headline_mme_checks": {
+    "K1_rec7_ghsa_spread_full_pp": 10.58,
+    "K1_rec7_osv_spread_full_pp": 38.59,
+    "K1_rec7_ghsa_spread_act_pp": 10.65,
+    "K1_unavail7_fresh_spread_pp": 2.435,
+    "K1_mme_threshold_pp": 15.0,
+    "K2_max_feed_gain_7_pp": 37.52,
+    "K2_feed_gains_by_eco_pp": {
+      "npm": 0.0,
+      "pypi": 6.32,
+      "cargo": 37.52,
+      "rubygems": 0.0,
+      "packagist": 2.59
+    },
+    "K2_mme_threshold_pp": 5.0,
+    "K3_max_abs_gap_vs_unw_7_pp": 18.56,
+    "K3_gaps_vs_unw_by_eco_pp": {
+      "npm": 18.56,
+      "pypi": 15.38,
+      "cargo": 13.28,
+      "rubygems": 12.26,
+      "packagist": 12.98
+    },
+    "K3_mme_threshold_pp": 10.0
+  },
+  "total_elapsed_seconds": 1583.3
+}

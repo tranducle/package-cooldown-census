@@ -1,0 +1,12 @@
+run_id,claim_id,arm,seed,config_hash,data_version,metric,value,artifact,phase
+five-ecosystem-census-MAIN-K1-BASE,K1,unweighted_plugin_baseline,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,rec7_spread_pp,11.28,results/census_summary.json,official
+five-ecosystem-census-MAIN-K1-METH,K1,five_eco_replay_ghsa,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,rec7_spread_pp,10.58,results/census_summary.json,official
+five-ecosystem-census-MAIN-K1SIM-BASE,K1_sim,uniform_7d_npm_extrapolated,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,rec7_osv_spread_pp,0.00,results/census_summary.json,official
+five-ecosystem-census-MAIN-K1SIM-METH,K1_sim,five_eco_replay_osv,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,rec7_osv_spread_pp,38.59,results/census_summary.json,official
+five-ecosystem-census-MAIN-K2-BASE,K2,ghsa_only_clock,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,feed_gain_cargo_pp,0.00,results/census_summary.json,official
+five-ecosystem-census-MAIN-K2-METH,K2,earliest_osv_plus_ghsa,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,feed_gain_cargo_pp,37.52,results/census_summary.json,official
+five-ecosystem-census-MAIN-K2-EOD,K2,earliest_osv_plus_12h_eod,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,feed_gain_cargo_eod_pp,33.82,results/census_summary.json,official
+five-ecosystem-census-MAIN-K3DATA-BASE,K3_data,unweighted_plugin_baseline,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,max_abs_gap_vs_unw_pp,0.00,results/census_summary.json,official
+five-ecosystem-census-MAIN-K3DATA-METH,K3_data,dependent_weighted_npm,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,max_abs_gap_vs_unw_pp,18.56,results/census_summary.json,official
+five-ecosystem-census-MAIN-K3-BASE,K3,unweighted_plugin_baseline,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,shapley_max_abs_err,0.00,results/census_summary.json,official
+five-ecosystem-census-MAIN-K3-METH,K3,dependent_weighted_shapley,20261119,five_ecosystem_census_100pct,ecosystems_20260205_osv_20261119,shapley_max_abs_err,0.00,results/census_summary.json,official

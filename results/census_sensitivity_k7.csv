@@ -1,0 +1,6 @@
+ecosystem,rec_ghsa_full,rec_ghsa_act,rec_ghsa_recent_2022,rec_ghsa_notop3,rec_osv_full,rec_osv_act,rec_osv_recent_2022,rec_osv_notop3,baseline_unw_ghsa,gap_vs_unw_ghsa,top3_hub_share_pct,unavail_fresh_full,unavail_sync_full,unavail_fresh_act,unavail_sync_act
+npm,53.22,50.26,70.48,50.99,53.22,50.26,70.48,50.99,34.66,18.56,47.41,2.677,0.046,2.658,0.048
+pypi,54.09,52.82,58.38,42.65,60.41,59.84,61.42,49.23,38.71,15.38,41.6,0.946,0.042,0.94,0.043
+cargo,49.11,48.09,59.71,51.1,86.63,86.6,86.88,84.75,35.83,13.28,59.17,2.532,0.013,2.539,0.013
+rubygems,56.03,55.93,74.97,56.28,56.03,55.93,74.97,56.28,43.76,12.26,72.15,3.381,0.238,3.425,0.243
+packagist,45.45,45.28,65.8,36.45,48.04,47.92,68.39,40.73,32.48,12.98,39.56,1.504,0.208,1.51,0.21

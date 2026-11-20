@@ -1,0 +1,147 @@
+{
+  "generated_utc": "2026-11-19T18:06:49Z",
+  "manifests": {
+    "multieco_packages": {
+      "path": "data/ecosystems_open_data/index_multieco/packages.MANIFEST.json",
+      "sha256": "3b1df411f48cf8dfe7d3bb83f01627ce399dd90fcacb2fb20f1ac409d5862ae9",
+      "copy_terminated": true,
+      "rows_seen": 13108568,
+      "counts_by_eco": null,
+      "elapsed_sec": null
+    },
+    "multieco_versions": {
+      "path": "data/ecosystems_open_data/index_multieco/versions.MANIFEST.json",
+      "sha256": "e1b73ac137842257d3e14313b9b7dedd11ea1b98becef8fc8f9064e26610ece8",
+      "copy_terminated": true,
+      "rows_seen": 150395258,
+      "counts_by_eco": null,
+      "elapsed_sec": null
+    },
+    "multieco_dependencies": {
+      "path": "data/ecosystems_open_data/index_multieco/dependencies.MANIFEST.json",
+      "sha256": "a0be0e4032cc3d87d1b73241cfa34de26851cd2cdb13ef583393f6a4427dce5a",
+      "copy_terminated": true,
+      "rows_seen": 1843471231,
+      "counts_by_eco": null,
+      "elapsed_sec": null
+    },
+    "npm_packages": {
+      "dir": "data/ecosystems_open_data/index/packages",
+      "n_parts": 2229
+    },
+    "npm_versions": {
+      "dir": "data/ecosystems_open_data/index/versions",
+      "n_parts": 1352
+    },
+    "npm_dependencies": {
+      "dir": "data/ecosystems_open_data/index/dependencies",
+      "n_parts": 1981
+    }
+  },
+  "advisory_corpus": {
+    "advisories_parquet": "data/advisories_census.parquet",
+    "advisories_sha256": "8c3675f9d148d375003c1c1f6b58e973eb4ec50231cca14e58940f3ff2f63cfb",
+    "advisories_rows": 22807,
+    "advisories_by_eco": {
+      "cargo": 1843,
+      "npm": 6770,
+      "packagist": 6185,
+      "pypi": 6941,
+      "rubygems": 1068
+    },
+    "mal_parquet": "data/malicious_packages.parquet",
+    "mal_sha256": "0394fa06a867a871de52943644124ad9c85bf6b73bbc6fd5cab0d07035f611fd",
+    "mal_rows": 221408,
+    "mal_by_eco": {
+      "cargo": 3,
+      "npm": 209969,
+      "pypi": 10500,
+      "rubygems": 936
+    },
+    "duplicate_eco_ghsa_pkg": 0,
+    "null_t_ghsa": 0,
+    "null_t_osv": 0
+  },
+  "constraint_parse_audit": {
+    "npm": {
+      "n_sampled": 1000,
+      "parsed_ok": 996,
+      "parse_rate_pct": 99.6,
+      "openness_dist": {
+        "minor": 617,
+        "wide": 101,
+        "exact": 214,
+        "patch": 64
+      },
+      "top_unparseable": [
+        [
+          "latest",
+          2
+        ],
+        [
+          "npm:@jsr/std__streams@^1.0.7",
+          1
+        ],
+        [
+          "npm:@nuxt/kit-nightly@3.10.0-28427806.a57b4285",
+          1
+        ]
+      ]
+    },
+    "pypi": {
+      "n_sampled": 1000,
+      "parsed_ok": 1000,
+      "parse_rate_pct": 100.0,
+      "openness_dist": {
+        "exact": 162,
+        "wide": 644,
+        "patch": 53,
+        "minor": 141
+      },
+      "top_unparseable": [],
+      "pypi_differential_checked": 1000,
+      "pypi_differential_matched": 1000
+    },
+    "cargo": {
+      "n_sampled": 1000,
+      "parsed_ok": 1000,
+      "parse_rate_pct": 100.0,
+      "openness_dist": {
+        "patch": 504,
+        "minor": 431,
+        "exact": 61,
+        "wide": 4
+      },
+      "top_unparseable": []
+    },
+    "rubygems": {
+      "n_sampled": 1000,
+      "parsed_ok": 1000,
+      "parse_rate_pct": 100.0,
+      "openness_dist": {
+        "minor": 471,
+        "wide": 319,
+        "patch": 92,
+        "exact": 118
+      },
+      "top_unparseable": []
+    },
+    "packagist": {
+      "n_sampled": 1000,
+      "parsed_ok": 996,
+      "parse_rate_pct": 99.6,
+      "openness_dist": {
+        "wide": 375,
+        "minor": 464,
+        "patch": 64,
+        "exact": 93
+      },
+      "top_unparseable": [
+        [
+          "self.version",
+          4
+        ]
+      ]
+    }
+  }
+}

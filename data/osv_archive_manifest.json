@@ -1,0 +1,123 @@
+{
+  "pypi": {
+    "url": "https://osv-vulnerabilities.storage.googleapis.com/PyPI/all.zip",
+    "file": "data/advisories/osv_pypi_all.zip",
+    "bytes": 38094316,
+    "sha256": "9e1586b2471941055b6950948dfcfc5e464cbb78840ff5788a8f45f2e58d0389",
+    "retrieved_utc": "2026-11-19T17:28:10Z",
+    "inventory": {
+      "total_records": 27006,
+      "prefixes": {
+        "MAL": 12078,
+        "PYSEC": 8012,
+        "GHSA": 6904,
+        "OSV": 12
+      },
+      "with_fixed": {
+        "PYSEC": 6883,
+        "GHSA": 6061,
+        "OSV": 11,
+        "MAL": 5
+      },
+      "with_published_ts": {
+        "MAL": 12078,
+        "PYSEC": 8012,
+        "GHSA": 6904,
+        "OSV": 12
+      }
+    }
+  },
+  "cargo": {
+    "url": "https://osv-vulnerabilities.storage.googleapis.com/crates.io/all.zip",
+    "file": "data/advisories/osv_cargo_all.zip",
+    "bytes": 3965267,
+    "sha256": "f774bc5e20d51671ea24f4d12a21cebe2a69981e7a2ffec5b5a4bea161fd7525",
+    "retrieved_utc": "2026-11-19T17:28:13Z",
+    "inventory": {
+      "total_records": 3194,
+      "prefixes": {
+        "GHSA": 1638,
+        "RUSTSEC": 1531,
+        "MAL": 25
+      },
+      "with_fixed": {
+        "GHSA": 1364,
+        "RUSTSEC": 1023
+      },
+      "with_published_ts": {
+        "GHSA": 1638,
+        "RUSTSEC": 1531,
+        "MAL": 25
+      }
+    }
+  },
+  "rubygems": {
+    "url": "https://osv-vulnerabilities.storage.googleapis.com/RubyGems/all.zip",
+    "file": "data/advisories/osv_rubygems_all.zip",
+    "bytes": 5346542,
+    "sha256": "fa29d0e84e83747997a3efea0024565be0d0643d19085a518fbb9c6253a78654",
+    "retrieved_utc": "2026-11-19T17:28:14Z",
+    "inventory": {
+      "total_records": 5542,
+      "prefixes": {
+        "MAL": 4329,
+        "GHSA": 1213
+      },
+      "with_fixed": {
+        "GHSA": 1124
+      },
+      "with_published_ts": {
+        "MAL": 4329,
+        "GHSA": 1213
+      }
+    }
+  },
+  "packagist": {
+    "url": "https://osv-vulnerabilities.storage.googleapis.com/Packagist/all.zip",
+    "file": "data/advisories/osv_packagist_all.zip",
+    "bytes": 11187305,
+    "sha256": "3da141377fb5c2f908f745433796e037d9f5d3411ccc572fcdc1208e2c4fdd73",
+    "retrieved_utc": "2026-11-19T17:28:15Z",
+    "inventory": {
+      "total_records": 7466,
+      "prefixes": {
+        "GHSA": 6616,
+        "DRUPAL": 849,
+        "MAL": 1
+      },
+      "with_fixed": {
+        "GHSA": 5699,
+        "DRUPAL": 788
+      },
+      "with_published_ts": {
+        "GHSA": 6616,
+        "DRUPAL": 849,
+        "MAL": 1
+      }
+    }
+  },
+  "npm": {
+    "file": "data/advisories/osv_npm_all.zip",
+    "bytes": 220390663,
+    "inventory": {
+      "total_records": 231581,
+      "prefixes": {
+        "MAL": 223487,
+        "GHSA": 8092,
+        "EEF": 1,
+        "GSD": 1
+      },
+      "with_fixed": {
+        "GHSA": 6386,
+        "MAL": 27,
+        "EEF": 1
+      },
+      "with_published_ts": {
+        "MAL": 223487,
+        "GHSA": 8092,
+        "EEF": 1,
+        "GSD": 1
+      }
+    }
+  }
+}

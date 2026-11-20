@@ -1,0 +1,31 @@
+{
+  "source_summary": "results/census_summary.json",
+  "source_summary_sha256": "4cfc7f2507e176af68a4f9ccb568cf6fc05a4cc5e3f825a6aec1ced476a0478b",
+  "files": {
+    "malicious_detection_curves.csv": {
+      "path": "malicious_detection_curves.csv",
+      "sha256": "2285e2e2c05af008bd050561f0e0cde31fcacbd61a5d98428c677d9ef05d9440",
+      "bytes": 293
+    },
+    "exemption_recovery_curves.csv": {
+      "path": "exemption_recovery_curves.csv",
+      "sha256": "cceca8eea55ea8cf1593edd1e0f97b6d2b898de5c5b39b0fea519d7ccea25c32",
+      "bytes": 273
+    },
+    "advisory_feed_recovery_k7.csv": {
+      "path": "advisory_feed_recovery_k7.csv",
+      "sha256": "fb3ce37bc32bea00eb42badc007dc3b4f67d02101e9ae15b3a5454cf8d6e41ed",
+      "bytes": 610
+    },
+    "resolution_unavailability.csv": {
+      "path": "resolution_unavailability.csv",
+      "sha256": "f3d2a040dfe908a539ad882446f9cbab719846b8e9885044d16d8b00283a1707",
+      "bytes": 490
+    },
+    "shapley_decomposition_k7.csv": {
+      "path": "shapley_decomposition_k7.csv",
+      "sha256": "404c286532538f00ab49237bac0aeb91a93d8035b0e48d586dda2a5fbc0d821b",
+      "bytes": 378
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "authorization": "explicit-author-approved-research-data",
+  "repository": "https://github.com/tranducle/package-cooldown-census",
+  "files": [
+    {
+      "path": "data/advisories_census.parquet",
+      "sha256": "8c3675f9d148d375003c1c1f6b58e973eb4ec50231cca14e58940f3ff2f63cfb",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "data/advisory_build_receipt.json",
+      "sha256": "779b2f115f1604c9ec1920bc33785cef860fc57d5da2e1517b4445a44cdd2d59",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "data/malicious_packages.parquet",
+      "sha256": "0394fa06a867a871de52943644124ad9c85bf6b73bbc6fd5cab0d07035f611fd",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "data/osv_archive_manifest.json",
+      "sha256": "28a30394e2331c1eae0af0625af884b76dd87c1baa4fc40f472c0a32f16d9189",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_gate_curves.csv",
+      "sha256": "18acecddef5053161135a1f155f410c613951b08be9088111367359729f3874d",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_openness_k7.csv",
+      "sha256": "4c5280b4c4d0ea13b6d8c3ce32a8496f5608b2ca3d409f9e98bf05f591530672",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_receipt.json",
+      "sha256": "81cb6900b56435c434fd72ebac497a7bda6e033acc3e7c3a255eac40411e639f",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_run_register.csv",
+      "sha256": "3c452f1f93f219951874b877853095de79e60740a91bcf0fca0a4f8facff8b22",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_sensitivity_k7.csv",
+      "sha256": "53fa039d4b24cbe61bbec151a2f6c05f31e294ebcf10222cebe30fecc3fcd6c3",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_shapley_k7.csv",
+      "sha256": "7cda3f2a91cb5e360bc7d9bd9c5bf9cc6d3d6a5b327c16d923520265e48be551",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/census_summary.json",
+      "sha256": "4cfc7f2507e176af68a4f9ccb568cf6fc05a4cc5e3f825a6aec1ced476a0478b",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/corpus_audit_metrics.json",
+      "sha256": "ab24db8d35d1e950a578dc8e7781b9058fe6b89b013d8e6685a8ddad69f721d7",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/figure_data/advisory_feed_recovery_k7.csv",
+      "sha256": "fb3ce37bc32bea00eb42badc007dc3b4f67d02101e9ae15b3a5454cf8d6e41ed",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/figure_data/exemption_recovery_curves.csv",
+      "sha256": "cceca8eea55ea8cf1593edd1e0f97b6d2b898de5c5b39b0fea519d7ccea25c32",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/figure_data/figure_data_manifest.json",
+      "sha256": "c3887fed4c93f7ec7a581aa5b99f66b7d3629a3c93cb0f186bdb64b91d2701bf",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/figure_data/malicious_detection_curves.csv",
+      "sha256": "2285e2e2c05af008bd050561f0e0cde31fcacbd61a5d98428c677d9ef05d9440",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/figure_data/resolution_unavailability.csv",
+      "sha256": "f3d2a040dfe908a539ad882446f9cbab719846b8e9885044d16d8b00283a1707",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/figure_data/shapley_decomposition_k7.csv",
+      "sha256": "404c286532538f00ab49237bac0aeb91a93d8035b0e48d586dda2a5fbc0d821b",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    },
+    {
+      "path": "results/manual_audit_sample_100.csv",
+      "sha256": "01244f57993fd1d7fac158fb7e6b37bbfb8ba0824e763fa2bba23f5a5c1c4ae2",
+      "license": "CC-BY-4.0",
+      "provenance": "Derived from public GitHub Advisory Database (commit 674392f1), OSV / OpenSSF MAL-* bulk archives, and ecosyste.ms Open Data snapshot (2026-02-05)."
+    }
+  ]
+}

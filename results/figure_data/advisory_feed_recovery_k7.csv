@@ -1,0 +1,6 @@
+y_idx,eco_label,b_unw,rec_ghsa,ghsa_err_lo,ghsa_err_hi,rec_osv,osv_err_lo,osv_err_hi,rec_osv_eod,feed_gain_pp,gap_unw_pp,annot_str
+1,PyPI,38.71,54.09,14.65,12.05,60.41,13.73,11.32,60.41,6.32,15.38,+6.3 pp feed | +15.4 pp vs B
+2,Packagist,32.48,45.45,15.28,14.69,48.04,14.8,14.75,48.04,2.59,12.98,+2.6 pp feed | +13.0 pp vs B
+3,RubyGems,43.76,56.03,4.38,7.32,56.03,4.38,7.32,56.03,0.0,12.26,0.0 pp feed | +12.3 pp vs B
+4,npm,34.66,53.22,10.62,11.03,53.22,10.62,11.03,53.22,0.0,18.56,0.0 pp feed | +18.6 pp vs B
+5,Cargo,35.83,49.11,14.89,14.85,86.63,5.1,5.5,82.93,37.52,13.28,+37.5 pp feed | +13.3 pp vs B

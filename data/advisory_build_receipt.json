@@ -1,0 +1,70 @@
+{
+  "generated_utc": "2026-11-19T17:40:40Z",
+  "elapsed_seconds": 87.95,
+  "advisories_parquet": "data/advisories_census.parquet",
+  "advisories_sha256": "8c3675f9d148d375003c1c1f6b58e973eb4ec50231cca14e58940f3ff2f63cfb",
+  "advisories_rows": 22807,
+  "mal_parquet": "data/malicious_packages.parquet",
+  "mal_sha256": "0394fa06a867a871de52943644124ad9c85bf6b73bbc6fd5cab0d07035f611fd",
+  "mal_rows": 221408,
+  "osv_stats": {
+    "npm": {
+      "native_vuln": 2,
+      "withdrawn": 751,
+      "mal_kept": 209969,
+      "mal_after_cutoff": 13181
+    },
+    "pypi": {
+      "withdrawn": 642,
+      "mal_kept": 10500,
+      "mal_after_cutoff": 1553,
+      "native_vuln": 7668
+    },
+    "cargo": {
+      "withdrawn": 124,
+      "mal_kept": 3,
+      "mal_after_cutoff": 22,
+      "native_vuln": 1506
+    },
+    "rubygems": {
+      "withdrawn": 70,
+      "mal_kept": 936,
+      "mal_after_cutoff": 3393
+    },
+    "packagist": {
+      "native_vuln": 830,
+      "withdrawn": 155,
+      "mal_after_cutoff": 1
+    }
+  },
+  "ghsa_stats": {
+    "npm": {
+      "kept_fixed_advisories": 6770,
+      "no_fixed_version": 1714,
+      "matched_native": 1,
+      "native_earlier_than_ghsa": 1
+    },
+    "pypi": {
+      "kept_fixed_advisories": 6941,
+      "matched_native": 6543,
+      "native_earlier_than_ghsa": 2990,
+      "no_fixed_version": 815
+    },
+    "cargo": {
+      "kept_fixed_advisories": 1843,
+      "matched_native": 823,
+      "native_earlier_than_ghsa": 805,
+      "no_fixed_version": 254
+    },
+    "rubygems": {
+      "no_fixed_version": 84,
+      "kept_fixed_advisories": 1068
+    },
+    "packagist": {
+      "kept_fixed_advisories": 6185,
+      "matched_native": 140,
+      "native_earlier_than_ghsa": 137,
+      "no_fixed_version": 1723
+    }
+  }
+}

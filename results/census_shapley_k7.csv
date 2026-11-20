@@ -1,0 +1,6 @@
+ecosystem,reference_val,target_val,total_gap,phi_S_silent_lag,phi_G_ghsa_curation,phi_C_constraint_openness,additivity_err
+npm,51.5754,53.2084,1.633,-11.686,8.624,4.695,0.0
+pypi,51.5754,54.0863,2.5109,0.4854,3.9228,-1.8973,0.0
+cargo,51.5754,49.1043,-2.4711,27.0404,-28.6421,-0.8694,0.0
+rubygems,51.5754,56.0261,4.4507,-3.755,9.7297,-1.524,0.0
+packagist,51.5754,45.4519,-6.1235,-12.0849,6.3656,-0.4043,0.0
